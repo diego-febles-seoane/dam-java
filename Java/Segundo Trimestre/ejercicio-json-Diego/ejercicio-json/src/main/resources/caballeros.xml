@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<caballeros>
+    <caballero>
+        <id>1</id>
+        <nombre>Juan Pérez</nombre>
+        <constelacion>Pegaso</constelacion>
+        <nivel>10</nivel>
+        <fechaIngreso>1993-05-12</fechaIngreso>
+    </caballero>
+</caballeros>

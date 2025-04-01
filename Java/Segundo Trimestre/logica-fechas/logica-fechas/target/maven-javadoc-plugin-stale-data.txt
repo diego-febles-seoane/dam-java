@@ -1,0 +1,51 @@
+@options
+@packages
+-classpath
+'/home/dam/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/dam/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/dam/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/dam/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar:/home/dam/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/dam/.m2/repository/org/xerial/sqlite-jdbc/3.45.2.0/sqlite-jdbc-3.45.2.0.jar:/home/dam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/dam/Escritorio/logica-fechas/logica-fechas/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'logica-fechas 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'logica-fechas 1.0-SNAPSHOT API'
+es.ies.puerto
+/home/dam/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar = 1373288881000
+/home/dam/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar = 1142314290000
+/home/dam/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar = 1153193755000
+/home/dam/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar = 1122889981000
+/home/dam/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar = 1635537600000
+/home/dam/.m2/repository/org/xerial/sqlite-jdbc/3.45.2.0/sqlite-jdbc-3.45.2.0.jar = 1710296435000
+/home/dam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1644327230000
+/home/dam/Escritorio/logica-fechas/logica-fechas/src/main/java = 1737237575000
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/allclasses-index.html = 1737396863404
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/overview-tree.html = 1737396863392
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/index-all.html = 1737396863416
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/stylesheet.css = 1737396863424
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/allpackages-index.html = 1737396863404
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/tag-search-index.js = 1737396863408
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/type-search-index.js = 1737396863408
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/script.js = 1737396863424
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/help-doc.html = 1737396863424
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/module-search-index.js = 1737396863404
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/package-search-index.js = 1737396863408
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/index.html = 1737396863420
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/search.js = 1737396863428
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/jquery-ui.overrides.css = 1737396863428
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/element-list = 1737396863356
+/home/dam/Escritorio/logica-fechas/logica-fechas/target/site/apidocs/member-search-index.js = 1737396863408

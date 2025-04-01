@@ -1,0 +1,25 @@
+#VBox{
+    -fx-background-color: #0e0239;
+    -fx-border-color: #cd9a08;
+}
+
+#Casilla{
+    -fx-background-color: black;
+    -fx-border-color: #cd9a08;
+    -fx-text-fill: white;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+#text{
+    -fx-fill: white;
+    -fx-font-family: "Pap";
+}
+
+#button{
+    -fx-background-color: black;
+    -fx-background-radius: 180;
+    -fx-border-color: #cd9a08;
+    -fx-text-fill: white;
+    -fx-border-radius: 180;
+}

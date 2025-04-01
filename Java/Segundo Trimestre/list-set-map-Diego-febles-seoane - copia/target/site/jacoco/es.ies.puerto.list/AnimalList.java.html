@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AnimalList.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">list-set-map</a> &gt; <a href="index.source.html" class="el_package">es.ies.puerto.list</a> &gt; <span class="el_source">AnimalList.java</span></div><h1>AnimalList.java</h1><pre class="source lang-java linenums">package es.ies.puerto.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import es.ies.puerto.Animal;
+
+public class AnimalList {
+    private List&lt;Animal&gt; animales;
+
+<span class="fc" id="L11">    public AnimalList() {</span>
+<span class="fc" id="L12">        this.animales = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L13">    }</span>
+
+    public boolean agregar(Animal animal) {
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        if (!animales.contains(animal)) {</span>
+<span class="fc" id="L17">            return animales.add(animal);</span>
+        } else {
+<span class="fc" id="L19">            return false;</span>
+        }
+    }
+
+    public List&lt;Animal&gt; listar() {
+<span class="fc" id="L24">        return new ArrayList&lt;&gt;(animales);</span>
+    }
+
+    public Animal buscar(String identificador) {
+<span class="fc" id="L28">        Animal animalBuscar = new Animal(identificador);</span>
+<span class="fc" id="L29">        int posicion = animales.indexOf(animalBuscar);</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        if (posicion &lt; 0) {</span>
+<span class="fc" id="L31">            return null;</span>
+        } else {
+<span class="fc" id="L33">            return animales.get(posicion);</span>
+        }    
+    }
+
+    public boolean actualizar(String identificador, Animal nuevoAnimal) {
+<span class="fc" id="L38">        Animal animalBuscar = new Animal(identificador);</span>
+<span class="fc" id="L39">        int posicion = animales.indexOf(animalBuscar);</span>
+<span class="fc bfc" id="L40" title="All 2 branches covered.">        if (posicion &lt; 0) {</span>
+<span class="fc" id="L41">            return false;</span>
+        }
+<span class="fc" id="L43">        animales.set(posicion, nuevoAnimal);</span>
+<span class="fc" id="L44">        return true;</span>
+    }
+
+    public boolean eliminar(String identificador) {
+<span class="fc" id="L48">        Animal animalEliminar = new Animal(identificador);</span>
+<span class="fc" id="L49">        return animales.remove(animalEliminar);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
