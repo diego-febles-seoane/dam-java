@@ -9,7 +9,7 @@
 <VBox id="VBox" alignment="CENTER" prefHeight="277.0" prefWidth="434.0" spacing="20.0" stylesheets="@CSS/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ies.puerto.controller.RecuperarPasswordController">
    <children>
       <Text id="text" fx:id="textEmail" strokeType="OUTSIDE" strokeWidth="0.0" text="Email de recuperacion" textAlignment="CENTER" wrappingWidth="157.92800903320312" />
-      <TextField id="Casilla" fx:id="textEmail">
+      <TextField id="Casilla" fx:id="textFieldEmail">
          <VBox.margin>
             <Insets bottom="30.0" left="50.0" right="50.0" />
          </VBox.margin>
