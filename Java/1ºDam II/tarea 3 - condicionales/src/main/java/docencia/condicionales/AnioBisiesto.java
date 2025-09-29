@@ -10,7 +10,11 @@ public class AnioBisiesto {
         System.out.print("Ingresa la cuenta: ");
         int anio = sc.nextInt();
 
-        
+        if ((anio % 4 == 0)&&(anio % 100 !=0)){
+           mensaje = "Es Bisiesto";
+        } else if (anio % 400 == 0){
+           mensane = "Es Bisiesto";
+        }
 
         System.out.println(mensaje);
         sc.close();
