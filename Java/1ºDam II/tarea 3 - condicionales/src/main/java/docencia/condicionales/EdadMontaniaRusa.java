@@ -2,7 +2,7 @@ package docencia.condicionales;
 
 import java.util.Scanner;
 
-public class EdadMontañaRusa {
+public class EdadMontaniaRusa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String mensaje = "No puedes subir a la montaña rusa."; 
