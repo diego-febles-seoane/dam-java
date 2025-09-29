@@ -13,7 +13,7 @@ public class AnioBisiesto {
         if ((anio % 4 == 0)&&(anio % 100 !=0)){
            mensaje = "Es Bisiesto";
         } else if (anio % 400 == 0){
-           mensane = "Es Bisiesto";
+           mensaje = "Es Bisiesto";
         }
 
         System.out.println(mensaje);
