@@ -86,7 +86,11 @@ public class EjerciciosArrays {
      * @return
      */
     public static int[] swapExtremos(int[] array) {
-        return null;
+        int primerElemento = array[0];
+        int ultimoElemento = array[array.length-1];
+        array[array.length-1] = primerElemento;
+        array[0] = ultimoElemento;
+        return array;
     }
 
     /**
@@ -96,8 +100,21 @@ public class EjerciciosArrays {
      * @return array con valores comunes
      */
     public static int[] interseccion(int[] primerArray, int[] segundoArray) {
-
-        return null;
+        int tamanioUno = primerArray.length;
+        int tamanioDos = segundoArray.length;
+        int tamanio = 0;
+        for (int i = 0; i < primerArray.length; i++){
+            for (int j = 0; j < segundoArray.length; j++){
+                if (primerArray[i] == segundoArray[i]){
+                    tamanio ++;
+                }
+            }
+        }
+        if (tamanio < 1){
+            return null;
+        } 
+        int[] solucion = new int [tamanio];
+        return solucion;
     }
 
     /**
