@@ -1,7 +1,5 @@
 package com.docencia.clases;
 
-import java.util.Arrays;
-
 /**
  * @author diegofeblesseoane
  * @version 1.0.0
@@ -54,16 +52,45 @@ public class StringUtils {
         return resultado;
     }
 
-    public static boolean esPalindromo(String cadena) {
-        return false;
+    public static boolean esPalindromo(String cadena) { //* Pregunta examen */
+        if (cadena == null || cadena.isEmpty()) {
+            return false;
+            
+        }
+        cadena = cadena.trim();
+        cadena = cadena.toLowerCase();
+        char[] cadenaArray = cadena.toCharArray();
+        for(int i=0; i < cadena.length()/2; i++){
+            if(cadenaArray[i] != cadenaArray[cadenaArray.length-1-i]){
+                return false;
+            }
+        }
+        for(int i = 0; i < cadena.length()/2; i++){
+            if(cadena.charAt(i) != cadena.charAt(cadena.length() -1-i)){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static String acronimo(String frase) {
-        return null;
+        if (frase == null || frase.isEmpty()){
+            return frase;
+        }
+        String resultado = "";
+        frase = frase.trim();
+        String[] palabras = frase.split(" ");
+        for (int i = 0; i < palabras.length; i++) {
+            String palabra = palabras[i];
+            char letra = palabra.charAt(0);//i=0-> H, i=i-> s, ...
+            resultado = resultado + String.valueOf(letra);
+        }
+        
+        return resultado.toUpperCase();
     }
 
     public static void main(String[] args) {
-    int[] resultado = cuentaLetras("Hola 123");
-    System.out.println(Arrays.toString(resultado));
+        String resultado = acronimo(" Hola soy una frase");
+        System.out.println(resultado);
     }
 }
