@@ -2,17 +2,16 @@ package com.docencia.programacion;
 
 public class Ejercicio9 {
     public static int absValue(int x) {
-        // TODO implementar
-        return 0;
+        return Math.abs(x);
     }
 
     public static int maxOfTwo(int a, int b) {
-        // TODO implementar
-        return 0;
+        return Math.max(a, b);
     }
 
     public static double distance2D(double x1, double y1, double x2, double y2) {
-        // TODO implementar
-        return 0.0;
+        double dx = x2 - x1;
+        double dy = y2 - y1;
+        return Math.sqrt(dx * dx + dy * dy);
     }
 }

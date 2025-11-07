@@ -5,33 +5,33 @@ public class Ejercicio28 {
     private final double y;
 
     public Ejercicio28(double x, double y) {
-        // TODO asignar campos
-        this.x = 0.0;
-        this.y = 0.0;
+        this.x = x;
+        this.y = y;
     }
 
     public Ejercicio28 add(Ejercicio28 other) {
-        // TODO implementar
-        return new Ejercicio28(0.0, 0.0);
+        if (other == null)
+            return new Ejercicio28(this.x, this.y);
+        return new Ejercicio28(this.x + other.x, this.y + other.y);
     }
 
     public double magnitude() {
-        // TODO implementar
-        return 0.0;
+        return Math.sqrt(x * x + y * y);
     }
 
     public double distanceTo(Ejercicio28 other) {
-        // TODO implementar
-        return 0.0;
+        if (other == null)
+            return magnitude();
+        double dx = other.x - this.x;
+        double dy = other.y - this.y;
+        return Math.sqrt(dx * dx + dy * dy);
     }
 
     public double getX() {
-        // TODO implementar
-        return 0.0;
+        return x;
     }
 
     public double getY() {
-        // TODO implementar
-        return 0.0;
+        return y;
     }
 }

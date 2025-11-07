@@ -6,34 +6,34 @@ public class Ejercicio32 {
     private boolean borrowed;
 
     public Ejercicio32(String title, String author) {
-        // TODO asignar
-        this.title = null;
-        this.author = null;
-        this.borrowed = true;
+        this.title = title;
+        this.author = author;
+        this.borrowed = false;
     }
 
     public boolean borrow() {
-        // TODO implementar
-        return false;
+        if (borrowed)
+            return false;
+        borrowed = true;
+        return true;
     }
 
     public boolean returnBook() {
-        // TODO implementar
-        return false;
+        if (!borrowed)
+            return false;
+        borrowed = false;
+        return true;
     }
 
     public boolean isBorrowed() {
-        // TODO implementar
-        return false;
+        return borrowed;
     }
 
     public String getTitle() {
-        // TODO implementar
-        return null;
+        return title;
     }
 
     public String getAuthor() {
-        // TODO implementar
-        return null;
+        return author;
     }
 }

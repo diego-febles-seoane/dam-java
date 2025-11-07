@@ -5,18 +5,15 @@ public class Ejercicio33 {
     private final String specialty;
 
     public Ejercicio33(String name, String specialty) {
-        // TODO asignar campos
-        this.name = null;
-        this.specialty = null;
+        this.name = name;
+        this.specialty = specialty;
     }
 
     public String getName() {
-        // TODO implementar
-        return null;
+        return name;
     }
 
     public String getSpecialty() {
-        // TODO implementar
-        return null;
+        return specialty;
     }
 }

@@ -7,28 +7,42 @@ public class Ejercicio35 {
     private static final int MAX_HISTORY = 100;
 
     public Ejercicio35() {
-        // TODO inicializar
         this.balance = 0.0;
-        this.history = new String[0];
+        this.history = new String[MAX_HISTORY];
         this.historyCount = 0;
     }
 
     public void deposit(double amount) {
-        // TODO implementar
+        if (amount <= 0)
+            return;
+        balance += amount;
+        if (historyCount < MAX_HISTORY)
+            history[historyCount++] = "deposit " + amount;
     }
 
     public boolean withdraw(double amount) {
-        // TODO implementar
-        return false;
+        if (amount <= 0)
+            return false;
+        if (amount <= balance) {
+            balance -= amount;
+            if (historyCount < MAX_HISTORY)
+                history[historyCount++] = "withdraw " + amount + " ok";
+            return true;
+        } else {
+            if (historyCount < MAX_HISTORY)
+                history[historyCount++] = "withdraw " + amount + " denied";
+            return false;
+        }
     }
 
     public double getBalance() {
-        // TODO implementar
-        return 0.0;
+        return balance;
     }
 
     public String[] getHistory() {
-        // TODO devolver copia defensiva
-        return new String[0];
+        String[] copy = new String[historyCount];
+        for (int i = 0; i < historyCount; i++)
+            copy[i] = history[i];
+        return copy;
     }
 }

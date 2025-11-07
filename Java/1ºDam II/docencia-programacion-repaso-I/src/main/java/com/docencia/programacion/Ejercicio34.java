@@ -6,28 +6,33 @@ public class Ejercicio34 {
     private int studentCount;
 
     public Ejercicio34(int maxCapacity) {
-        // TODO inicializar
         this.tutor = null;
-        this.students = new Ejercicio15[0];
+        if (maxCapacity < 0)
+            maxCapacity = 0;
+        this.students = new Ejercicio15[maxCapacity];
         this.studentCount = 0;
     }
 
     public void assignTutor(Ejercicio33 tutor) {
-        // TODO implementar
+        this.tutor = tutor;
     }
 
     public boolean enrollStudent(Ejercicio15 s) {
-        // TODO implementar
-        return false;
+        if (s == null)
+            return false;
+        if (studentCount >= students.length)
+            return false;
+        students[studentCount++] = s;
+        return true;
     }
 
     public String getTutorName() {
-        // TODO implementar
-        return "";
+        if (tutor == null)
+            return "";
+        return tutor.getName();
     }
 
     public int getStudentCount() {
-        // TODO implementar
-        return -1;
+        return studentCount;
     }
 }

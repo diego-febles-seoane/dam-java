@@ -6,38 +6,39 @@ public class Ejercicio29 {
     private int stock;
 
     public Ejercicio29(String name, double price, int stock) {
-        // TODO asignar campos
-        this.name = null;
-        this.price = 0.0;
-        this.stock = 0;
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
     }
 
     public void addStock(int delta) {
-        // TODO implementar
+        if (delta <= 0)
+            return;
+        this.stock += delta;
     }
 
     public boolean removeStock(int delta) {
-        // TODO implementar
-        return false;
+        if (delta <= 0)
+            return false;
+        if (delta > this.stock)
+            return false;
+        this.stock -= delta;
+        return true;
     }
 
     public double getStockValue() {
-        // TODO implementar
-        return 0.0;
+        return this.price * this.stock;
     }
 
     public String getName() {
-        // TODO implementar
-        return null;
+        return name;
     }
 
     public double getPrice() {
-        // TODO implementar
-        return 0.0;
+        return price;
     }
 
     public int getStock() {
-        // TODO implementar
-        return 0;
+        return stock;
     }
 }

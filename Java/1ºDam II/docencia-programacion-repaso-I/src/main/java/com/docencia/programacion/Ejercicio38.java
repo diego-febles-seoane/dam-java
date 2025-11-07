@@ -2,17 +2,14 @@ package com.docencia.programacion;
 
 public class Ejercicio38 {
     public static double areaCircle(double r) {
-        // TODO implementar
-        return 0.0;
+        return Math.PI * r * r;
     }
 
     public static double areaRectangle(double base, double height) {
-        // TODO implementar
-        return 0.0;
+        return base * height;
     }
 
     public static double areaTriangle(double base, double height) {
-        // TODO implementar
-        return 0.0;
+        return (base * height) / 2.0;
     }
 }

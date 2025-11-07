@@ -5,26 +5,23 @@ public class Ejercicio18 {
     private boolean occupied;
 
     public Ejercicio18(int roomNumber) {
-        // TODO inicializar
-        this.roomNumber = 0;
-        this.occupied = true;
+        this.roomNumber = roomNumber;
+        this.occupied = false;
     }
 
     public void occupy() {
-        // TODO implementar
+        this.occupied = true;
     }
 
     public void release() {
-        // TODO implementar
+        this.occupied = false;
     }
 
     public boolean isOccupied() {
-        // TODO implementar
-        return false;
+        return occupied;
     }
 
     public int getRoomNumber() {
-        // TODO implementar
-        return -1;
+        return roomNumber;
     }
 }
