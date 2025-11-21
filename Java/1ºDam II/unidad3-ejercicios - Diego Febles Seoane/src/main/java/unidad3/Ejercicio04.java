@@ -1,6 +1,5 @@
 package unidad3;
 
-
 public class Ejercicio04 {
 
     public static class ContadorSignos {
@@ -9,9 +8,9 @@ public class Ejercicio04 {
         private final int ceros;
 
         public ContadorSignos(int positivos, int negativos, int ceros) {
-            this.positivos = 0;
-            this.negativos = 0;
-            this.ceros = 0;
+            this.positivos = positivos;
+            this.negativos = negativos;
+            this.ceros = ceros;
         }
 
         public int getPositivos() {
@@ -27,21 +26,24 @@ public class Ejercicio04 {
         }
     }
 
-    
     public static ContadorSignos contarSignos(int[] numeros) {
-        
-        for (int i = 0; i < numeros.length; i++) {
-            if(i > 0){
-                
-            }
-            if(i == 0){
-                
-            }
-            if(i < 0){
-                
-            }
+        if (numeros == null || numeros.length == 0) {
+            return new ContadorSignos(0, 0, 0);
         }
 
-        return null;
+        int positivos = 0;
+        int negativos = 0;
+        int ceros = 0;
+
+        for (int i : numeros) {
+            if (i > 0)
+                positivos++;
+            else if (i < 0)
+                negativos++;
+            else
+                ceros++;
+        }
+
+        return new ContadorSignos(positivos, negativos, ceros);
     }
 }

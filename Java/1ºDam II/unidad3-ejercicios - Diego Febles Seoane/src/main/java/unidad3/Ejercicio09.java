@@ -16,9 +16,9 @@ public class Ejercicio09 {
 
         public Estadisticas(int cantidad, double media, int maximo, int minimo) {
             this.cantidad = cantidad;
-            this.media = 0;
-            this.maximo = 0;
-            this.minimo = 0;
+            this.media = media;
+            this.maximo = maximo;
+            this.minimo = minimo;
         }
 
         public int getCantidad() {
@@ -39,7 +39,25 @@ public class Ejercicio09 {
     }
 
     public static Estadisticas calcularEstadisticas(int[] numeros) {
-        
-        return new Estadisticas(numeros.length, 0, 0, 0);
+        if (numeros == null) {
+            throw new IllegalArgumentException("array nulo");
+        }
+        if (numeros.length == 0) {
+            throw new IllegalArgumentException("array vacío");
+        }
+
+        int cantidad = numeros.length;
+        long suma = 0;
+        int max = numeros[0];
+        int min = numeros[0];
+        for (int numero : numeros) {
+            suma += numero;
+            if (numero > max)
+                max = numero;
+            if (numero < min)
+                min = numero;
+        }
+        double media = (double) suma / cantidad;
+        return new Estadisticas(cantidad, media, max, min);
     }
 }
