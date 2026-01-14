@@ -14,19 +14,35 @@ public class Inventario {
     }
 
     public boolean retirarStock(String nombreProducto, int cantidad) {
-        // TODO: implementar según enunciado/tests.
+        
         return false;
     }
 
     public int stockDe(String nombreProducto) {
-        // TODO: implementar según enunciado/tests.
-        return 0;
+        if (nombreProducto != null || nombreProducto.isBlank()){
+            return 0;
+        }
+        nombreProducto = nombreProducto.trim().toUpperCase();
+        int resultado = 0;
+        for (LineaInventario lineaInventario : lineas) {
+            if (lineaInventario != null){
+                if (lineaInventario.getProducto().getNombre().equals(nombreProducto)){
+                    resultado = resultado + lineaInventario.getCantidad();
+                }
+            }
+            
+        }
+        return resultado;
     }
 
     public int totalUnidades() {
-        int total = 0;
-        
-        return total;
+        int resultado = 0;
+        for (LineaInventario lineaInventario : lineas) {
+            if (lineaInventario != null){
+                    resultado = resultado + lineaInventario.getCantidad();
+                }
+            }
+        return resultado;
     }
 
     public List<LineaInventario> getLineas() {
