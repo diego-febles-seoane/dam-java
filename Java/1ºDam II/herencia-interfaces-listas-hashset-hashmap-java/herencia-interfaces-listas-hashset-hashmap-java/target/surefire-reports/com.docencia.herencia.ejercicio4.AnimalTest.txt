@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.herencia.ejercicio4.AnimalTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.docencia.herencia.ejercicio4.AnimalTest
