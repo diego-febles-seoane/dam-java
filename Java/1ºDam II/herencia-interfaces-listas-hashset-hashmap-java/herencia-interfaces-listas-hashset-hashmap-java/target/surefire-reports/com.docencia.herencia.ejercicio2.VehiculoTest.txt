@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.herencia.ejercicio2.VehiculoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in com.docencia.herencia.ejercicio2.VehiculoTest
