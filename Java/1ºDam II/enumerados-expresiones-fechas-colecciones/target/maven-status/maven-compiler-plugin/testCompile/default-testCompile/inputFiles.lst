@@ -1,51 +1,51 @@
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/DocumentacionGeneradaTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio1/ProcesadorRegistrosTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio2/AgendaEventosTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio3/InventarioTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio4/NominaTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio5/NotificadorTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio1/CalendarioTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio10/ValorPiezaTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio2/ControlSemaforoTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio3/ValidadorAccesoTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio4/CalculadoraTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio5/EnvioServiceTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio6/GestorIncidenciasTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio7/FlujoPedidoTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio8/AplicadorDescuentoTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio9/ClasificadorTicketTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio1/RegexSoloDigitosTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio10/RegexTelefonoEsTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio11/RegexUrlHttpTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio12/RegexPasswordFuerteTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio13/RegexPalabraRepetidaTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio14/RegexHashtagsTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio15/RegexLineaLogTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio2/RegexPalabraMinusculasTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio3/RegexCodigoProductoTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio4/RegexFechaBasicaTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio5/RegexEmailSimpleTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio6/RegexIpv4Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio7/RegexColorHexTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio8/RegexHora24hTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio9/RegexCodigoPostalEsTest.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio1/FechasLocalDate1Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio10/FechasLocalTime10Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio11/FechasLocalDateTime11Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio12/FechasZonedDateTime12Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio13/FechasInstant13Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio14/FechasYearMonth14Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio15/FechasPeriod15Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio16/FechasDuration16Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio17/FechasConversion17Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio18/FechasLaborables18Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio19/FechasZonas19Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio2/FechasLocalTime2Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio20/FechasAgenda20Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio3/FechasLocalDateTime3Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio4/FechasZonedDateTime4Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio5/FechasInstant5Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio6/FechasYearMonth6Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio7/FechasPeriod7Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio8/FechasDuration8Test.java
-/home/diego-febles-seoane/Escritorio/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio9/FechasLocalDate9Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/DocumentacionGeneradaTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio1/ProcesadorRegistrosTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio2/AgendaEventosTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio3/InventarioTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio4/NominaTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/colecciones/ejercicio5/NotificadorTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio1/CalendarioTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio10/ValorPiezaTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio2/ControlSemaforoTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio3/ValidadorAccesoTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio4/CalculadoraTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio5/EnvioServiceTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio6/GestorIncidenciasTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio7/FlujoPedidoTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio8/AplicadorDescuentoTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/enumerados/ejercicio9/ClasificadorTicketTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio1/RegexSoloDigitosTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio10/RegexTelefonoEsTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio11/RegexUrlHttpTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio12/RegexPasswordFuerteTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio13/RegexPalabraRepetidaTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio14/RegexHashtagsTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio15/RegexLineaLogTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio2/RegexPalabraMinusculasTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio3/RegexCodigoProductoTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio4/RegexFechaBasicaTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio5/RegexEmailSimpleTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio6/RegexIpv4Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio7/RegexColorHexTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio8/RegexHora24hTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/expresionesregulares/ejercicio9/RegexCodigoPostalEsTest.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio1/FechasLocalDate1Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio10/FechasLocalTime10Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio11/FechasLocalDateTime11Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio12/FechasZonedDateTime12Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio13/FechasInstant13Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio14/FechasYearMonth14Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio15/FechasPeriod15Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio16/FechasDuration16Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio17/FechasConversion17Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio18/FechasLaborables18Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio19/FechasZonas19Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio2/FechasLocalTime2Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio20/FechasAgenda20Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio3/FechasLocalDateTime3Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio4/FechasZonedDateTime4Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio5/FechasInstant5Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio6/FechasYearMonth6Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio7/FechasPeriod7Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio8/FechasDuration8Test.java
+/home/diego-febles-seoane/Escritorio/Repositorios/dam-java/Java/1ºDam II/enumerados-expresiones-fechas-colecciones/src/test/java/com/docencia/fechas/ejercicio9/FechasLocalDate9Test.java

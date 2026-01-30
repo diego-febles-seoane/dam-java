@@ -9,12 +9,11 @@ public final class RegexFechaBasica {
   private RegexFechaBasica() {}
 
   public static boolean esValido(String texto) {
-    return Pattern.matches("(0[1-9])", texto);
+    return Pattern.matches("^(0[1-9]|[12][0-9]|3[0-1])/(0[1-9]|1[0-2])/[0-9]{4}$", texto);
   }
 
   public static Pattern patron() {
-    // TODO: implementar este metodo
-    throw new UnsupportedOperationException("TODO");
+    return Pattern.compile("^(0[1-9]|[12][0-9]|3[0-1])/(0[1-9]|1[0-2])/[0-9]{4}$");
   }
 
 

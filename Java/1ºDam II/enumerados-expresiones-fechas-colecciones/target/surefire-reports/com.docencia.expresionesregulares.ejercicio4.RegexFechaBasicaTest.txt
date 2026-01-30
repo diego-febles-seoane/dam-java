@@ -1,20 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! -- in com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest
-com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest.debeAceptarFecha -- Time elapsed: 0.022 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: Error: '31/12/2025' debe ser valido ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
-	at com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest.debeAceptarFecha(RegexFechaBasicaTest.java:16)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
-com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest.patronNoDebeSerNulo -- Time elapsed: 0.007 s <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.293 s <<< FAILURE! -- in com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest
+com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest.patronNoDebeSerNulo -- Time elapsed: 0.008 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.expresionesregulares.ejercicio4.RegexFechaBasica.patron(RegexFechaBasica.java:17)
 	at com.docencia.expresionesregulares.ejercicio4.RegexFechaBasicaTest.patronNoDebeSerNulo(RegexFechaBasicaTest.java:10)
