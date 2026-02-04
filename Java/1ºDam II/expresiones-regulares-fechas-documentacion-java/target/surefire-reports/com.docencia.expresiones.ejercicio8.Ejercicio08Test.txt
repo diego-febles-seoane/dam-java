@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio8.Ejercicio08Test
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio8.Ejercicio08Test
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectOctetOutOfRange256Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectOctetOutOfRange256Test(Ejercicio08Test.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectNullTest(Ejercicio08Test.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectLeadingZeroInOctetTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectLeadingZeroInOctetTest(Ejercicio08Test.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidBoundaryValuesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidBoundaryValuesTest(Ejercicio08Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectSpacesTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectSpacesTest(Ejercicio08Test.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectNonNumericTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectNonNumericTest(Ejercicio08Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp255_255_255_255Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp255_255_255_255Test(Ejercicio08Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectMissingOctetTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectMissingOctetTest(Ejercicio08Test.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectOctetOutOfRange999Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectOctetOutOfRange999Test(Ejercicio08Test.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectMultipleLeadingZerosTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectMultipleLeadingZerosTest(Ejercicio08Test.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp0_0_0_0Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp0_0_0_0Test(Ejercicio08Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectTooManyOctetsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectTooManyOctetsTest(Ejercicio08Test.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectEmptyStringTest(Ejercicio08Test.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectTrailingDotTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldRejectTrailingDotTest(Ejercicio08Test.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp192_168_1_10Test -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio8.Ejercicio08.isValidIPv4(Ejercicio08.java:16)
+	at com.docencia.expresiones.ejercicio8.Ejercicio08Test.shouldAcceptValidIp192_168_1_10Test(Ejercicio08Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

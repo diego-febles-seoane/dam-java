@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio4.Ejercicio04Test
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 8, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in com.docencia.fecha.ejercicio4.Ejercicio04Test
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsGreaterThan60 -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsGreaterThan60(Ejercicio04Test.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.lambda$shouldThrowWhenPasoMinIsGreaterThan60$3(Ejercicio04Test.java:32)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpToNextBlockWhenMinuteNotMultiple -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpToNextBlockWhenMinuteNotMultiple(Ejercicio04Test.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldWrapToNextDayWhenRoundingPast2359 -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldWrapToNextDayWhenRoundingPast2359(Ejercicio04Test.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldReturnSameTimeWhenAlreadyExactMultipleWithoutSeconds -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldReturnSameTimeWhenAlreadyExactMultipleWithoutSeconds(Ejercicio04Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldWrapToNextDayWithStep30 -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldWrapToNextDayWithStep30(Ejercicio04Test.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpWhenExactMinuteMultipleButHasNanos -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpWhenExactMinuteMultipleButHasNanos(Ejercicio04Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsZero -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsZero(Ejercicio04Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.lambda$shouldThrowWhenPasoMinIsZero$1(Ejercicio04Test.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinDoesNotDivide60 -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinDoesNotDivide60(Ejercicio04Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.lambda$shouldThrowWhenPasoMinDoesNotDivide60$4(Ejercicio04Test.java:38)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpWhenExactMinuteMultipleButHasSeconds -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpWhenExactMinuteMultipleButHasSeconds(Ejercicio04Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenTimeIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenTimeIsNull(Ejercicio04Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.lambda$shouldThrowWhenTimeIsNull$0(Ejercicio04Test.java:14)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpCorrectlyWithStep5 -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpCorrectlyWithStep5(Ejercicio04Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsNegative -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldThrowWhenPasoMinIsNegative(Ejercicio04Test.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.lambda$shouldThrowWhenPasoMinIsNegative$2(Ejercicio04Test.java:26)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpFrom1059To1100WithStep15 -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio4.Ejercicio04.redondearArriba(Ejercicio04.java:25)
+	at com.docencia.fecha.ejercicio4.Ejercicio04Test.shouldRoundUpFrom1059To1100WithStep15(Ejercicio04Test.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

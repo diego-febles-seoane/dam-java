@@ -1,0 +1,188 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio7.Ejercicio07Test
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 8, Errors: 7, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in com.docencia.fecha.ejercicio7.Ejercicio07Test
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenIntervalsJustTouchAtEndStart -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenIntervalsJustTouchAtEndStart(Ejercicio07Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalBStartAfterEnd -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalBStartAfterEnd(Ejercicio07Test.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenIntervalBStartAfterEnd$7(Ejercicio07Test.java:56)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenIntervalsOverlapPartially -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenIntervalsOverlapPartially(Ejercicio07Test.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenIntervalsAreDisjoint -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenIntervalsAreDisjoint(Ejercicio07Test.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenIntervalsOverlapByOneMinute -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenIntervalsOverlapByOneMinute(Ejercicio07Test.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenBIniIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenBIniIsNull(Ejercicio07Test.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenBIniIsNull$2(Ejercicio07Test.java:26)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenAIniIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenAIniIsNull(Ejercicio07Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenAIniIsNull$0(Ejercicio07Test.java:14)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalAStartAfterEnd -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalAStartAfterEnd(Ejercicio07Test.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenIntervalAStartAfterEnd$5(Ejercicio07Test.java:44)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenOneIntervalInsideAnother -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenOneIntervalInsideAnother(Ejercicio07Test.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenAStartsBeforeBEndsAndBStartsBeforeAEnds -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnTrueWhenAStartsBeforeBEndsAndBStartsBeforeAEnds(Ejercicio07Test.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenBFinIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenBFinIsNull(Ejercicio07Test.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenBFinIsNull$3(Ejercicio07Test.java:32)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenBEndsExactlyAtAStart -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldReturnFalseWhenBEndsExactlyAtAStart(Ejercicio07Test.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenAFinIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenAFinIsNull(Ejercicio07Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenAFinIsNull$1(Ejercicio07Test.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalBHasEqualStartAndEnd -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalBHasEqualStartAndEnd(Ejercicio07Test.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenIntervalBHasEqualStartAndEnd$6(Ejercicio07Test.java:50)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalAHasEqualStartAndEnd -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.shouldThrowWhenIntervalAHasEqualStartAndEnd(Ejercicio07Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio7.Ejercicio07.solapan(Ejercicio07.java:25)
+	at com.docencia.fecha.ejercicio7.Ejercicio07Test.lambda$shouldThrowWhenIntervalAHasEqualStartAndEnd$4(Ejercicio07Test.java:38)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

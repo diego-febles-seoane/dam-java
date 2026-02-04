@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio10.Ejercicio10Test
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 8, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! -- in com.docencia.fecha.ejercicio10.Ejercicio10Test
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldGenerateAlarmsWithCorrectStepWithinSameDay -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldGenerateAlarmsWithCorrectStepWithinSameDay(Ejercicio10Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldIncludeInicioAsFirstAlarm -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldIncludeInicioAsFirstAlarm(Ejercicio10Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldReturnEmptyListWhenNIsZero -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldReturnEmptyListWhenNIsZero(Ejercicio10Test.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldWrapToNextDayWhenCrossingMidnight -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldWrapToNextDayWhenCrossingMidnight(Ejercicio10Test.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldHandleLargeStepValues -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldHandleLargeStepValues(Ejercicio10Test.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldPreserveSecondsAndNanosFromInicio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldPreserveSecondsAndNanosFromInicio(Ejercicio10Test.java:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenNIsNegative -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenNIsNegative(Ejercicio10Test.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.lambda$shouldThrowWhenNIsNegative$3(Ejercicio10Test.java:34)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenInicioIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenInicioIsNull(Ejercicio10Test.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.lambda$shouldThrowWhenInicioIsNull$0(Ejercicio10Test.java:16)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldReturnListWithRequestedSize -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldReturnListWithRequestedSize(Ejercicio10Test.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenPasoMinIsZero -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenPasoMinIsZero(Ejercicio10Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.lambda$shouldThrowWhenPasoMinIsZero$1(Ejercicio10Test.java:22)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldPreserveSecondsAndNanosWhenWrappingMidnight -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldPreserveSecondsAndNanosWhenWrappingMidnight(Ejercicio10Test.java:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenPasoMinIsNegative -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.shouldThrowWhenPasoMinIsNegative(Ejercicio10Test.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio10.Ejercicio10.generarAlarmas(Ejercicio10.java:25)
+	at com.docencia.fecha.ejercicio10.Ejercicio10Test.lambda$shouldThrowWhenPasoMinIsNegative$2(Ejercicio10Test.java:28)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

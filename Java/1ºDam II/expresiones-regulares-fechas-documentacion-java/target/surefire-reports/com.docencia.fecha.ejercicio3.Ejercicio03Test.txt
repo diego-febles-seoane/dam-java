@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio3.Ejercicio03Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 8, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.docencia.fecha.ejercicio3.Ejercicio03Test
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenObjetivoBeforeAhoraNextDay -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenObjetivoBeforeAhoraNextDay(Ejercicio03Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnOneMinuteWhenCrossingMidnightByOneMinute -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnOneMinuteWhenCrossingMidnightByOneMinute(Ejercicio03Test.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldThrowWhenObjetivoIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldThrowWhenObjetivoIsNull(Ejercicio03Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.lambda$shouldThrowWhenObjetivoIsNull$1(Ejercicio03Test.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenObjetivoIsMidnightAndAhoraLater -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenObjetivoIsMidnightAndAhoraLater(Ejercicio03Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenAhoraIsMidnightAndObjetivoLater -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnMinutesWhenAhoraIsMidnightAndObjetivoLater(Ejercicio03Test.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnPositiveMinutesWhenObjetivoAfterAhoraSameDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnPositiveMinutesWhenObjetivoAfterAhoraSameDay(Ejercicio03Test.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldThrowWhenAhoraIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldThrowWhenAhoraIsNull(Ejercicio03Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.lambda$shouldThrowWhenAhoraIsNull$0(Ejercicio03Test.java:14)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnZeroWhenAhoraEqualsObjetivo -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnZeroWhenAhoraEqualsObjetivo(Ejercicio03Test.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnFullDayMinusOneMinuteWhenObjetivoOneMinuteBeforeAhora -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnFullDayMinusOneMinuteWhenObjetivoOneMinuteBeforeAhora(Ejercicio03Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnLargeJumpWhenAhoraNearEndOfDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio3.Ejercicio03.minutosHasta(Ejercicio03.java:26)
+	at com.docencia.fecha.ejercicio3.Ejercicio03Test.shouldReturnLargeJumpWhenAhoraNearEndOfDay(Ejercicio03Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

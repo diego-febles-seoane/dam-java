@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.clases.ejercicio2.ReservaHotelTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 3, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.clases.ejercicio2.ReservaHotelTest
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldValidateWhenReservaIsCorrect -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.UnsupportedOperationException: TODO
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldValidateWhenReservaIsCorrect(ReservaHotelTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.validate(ReservaHotel.java:20)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldNotAllowCancelAfterDeadline -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.puedeCancelar(ReservaHotel.java:28)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldNotAllowCancelAfterDeadline(ReservaHotelTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenCheckOutIsNotAfterCheckIn -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenCheckOutIsNotAfterCheckIn(ReservaHotelTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.validate(ReservaHotel.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenDniLetterIsWrong -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenDniLetterIsWrong(ReservaHotelTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.validate(ReservaHotel.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldCalculateNochesCorrectly -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.noches(ReservaHotel.java:24)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldCalculateNochesCorrectly(ReservaHotelTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenCodigoIsInvalid -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldThrowWhenCodigoIsInvalid(ReservaHotelTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.validate(ReservaHotel.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio2.ReservaHotelTest.shouldAllowCancelTwoDaysBeforeOrEarlier -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio2.ReservaHotel.puedeCancelar(ReservaHotel.java:28)
+	at com.docencia.clases.ejercicio2.ReservaHotelTest.shouldAllowCancelTwoDaysBeforeOrEarlier(ReservaHotelTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

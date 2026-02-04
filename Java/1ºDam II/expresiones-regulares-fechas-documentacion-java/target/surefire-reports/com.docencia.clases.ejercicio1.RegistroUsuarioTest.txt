@@ -1,0 +1,101 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.clases.ejercicio1.RegistroUsuarioTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.docencia.clases.ejercicio1.RegistroUsuarioTest
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenPasswordIsWeak -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenPasswordIsWeak(RegistroUsuarioTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldThrowWhenPasswordIsWeak$2(RegistroUsuarioTest.java:57)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenPhoneIsInvalid -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenPhoneIsInvalid(RegistroUsuarioTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldThrowWhenPhoneIsInvalid$3(RegistroUsuarioTest.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldValidateWhenAllFieldsAreCorrect -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.UnsupportedOperationException: TODO
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldValidateWhenAllFieldsAreCorrect(RegistroUsuarioTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldValidateWhenAllFieldsAreCorrect$0(RegistroUsuarioTest.java:37)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenBirthDateIsFuture -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenBirthDateIsFuture(RegistroUsuarioTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldThrowWhenBirthDateIsFuture$4(RegistroUsuarioTest.java:77)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenUnderMinimumAge -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenUnderMinimumAge(RegistroUsuarioTest.java:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldThrowWhenUnderMinimumAge$5(RegistroUsuarioTest.java:87)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenEmailIsInvalid -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.shouldThrowWhenEmailIsInvalid(RegistroUsuarioTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio1.RegistroUsuario.validate(RegistroUsuario.java:29)
+	at com.docencia.clases.ejercicio1.RegistroUsuarioTest.lambda$shouldThrowWhenEmailIsInvalid$1(RegistroUsuarioTest.java:47)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

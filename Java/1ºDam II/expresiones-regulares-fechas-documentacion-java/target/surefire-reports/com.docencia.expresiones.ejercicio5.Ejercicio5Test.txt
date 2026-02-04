@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio5.Ejercicio5Test
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio5.Ejercicio5Test
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectLowercaseLettersTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectLowercaseLettersTest(Ejercicio5Test.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectNullTest(Ejercicio5Test.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlate1234BCDTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlate1234BCDTest(Ejercicio5Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectVowels1234AEITest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectVowels1234AEITest(Ejercicio5Test.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectAnyVowelInLettersTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectAnyVowelInLettersTest(Ejercicio5Test.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectEmptyStringTest(Ejercicio5Test.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlate0001XYZTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlate0001XYZTest(Ejercicio5Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlateWithAllowedLettersTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldAcceptValidPlateWithAllowedLettersTest(Ejercicio5Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectNonAlphanumericTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectNonAlphanumericTest(Ejercicio5Test.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectTooLongTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectTooLongTest(Ejercicio5Test.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectTooShort123ABCTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectTooShort123ABCTest(Ejercicio5Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectWrongPattern12A4BCDTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio5.Ejercicio05.isValidMatriculaES(Ejercicio05.java:15)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.shouldRejectWrongPattern12A4BCDTest(Ejercicio5Test.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

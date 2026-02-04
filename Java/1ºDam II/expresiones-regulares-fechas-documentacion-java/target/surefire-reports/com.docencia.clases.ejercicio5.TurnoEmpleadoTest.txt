@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.clases.ejercicio5.TurnoEmpleadoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 4, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.clases.ejercicio5.TurnoEmpleadoTest
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldComputeFinDateTimeNextDayWhenCrossingMidnight -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.inicioDateTime(TurnoEmpleado.java:33)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldComputeFinDateTimeNextDayWhenCrossingMidnight(TurnoEmpleadoTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnFalseWhenOrderIsNotChronological -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.cumpleDescansoMinimoDesde(TurnoEmpleado.java:41)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnFalseWhenOrderIsNotChronological(TurnoEmpleadoTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnFalseWhenRestIsLessThan12Hours -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.cumpleDescansoMinimoDesde(TurnoEmpleado.java:41)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnFalseWhenRestIsLessThan12Hours(TurnoEmpleadoTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldValidateWhenTurnoIsCorrect -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.UnsupportedOperationException: TODO
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldValidateWhenTurnoIsCorrect(TurnoEmpleadoTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.validate(TurnoEmpleado.java:25)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnTrueWhenRestIsAtLeast12HoursAcrossMidnightTurn -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.cumpleDescansoMinimoDesde(TurnoEmpleado.java:41)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldReturnTrueWhenRestIsAtLeast12HoursAcrossMidnightTurn(TurnoEmpleadoTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldThrowWhenTurnoIsEmpty -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldThrowWhenTurnoIsEmpty(TurnoEmpleadoTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.validate(TurnoEmpleado.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldThrowWhenEmpleadoIdIsInvalid -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.clases.ejercicio5.TurnoEmpleadoTest.shouldThrowWhenEmpleadoIdIsInvalid(TurnoEmpleadoTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.clases.ejercicio5.TurnoEmpleado.validate(TurnoEmpleado.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

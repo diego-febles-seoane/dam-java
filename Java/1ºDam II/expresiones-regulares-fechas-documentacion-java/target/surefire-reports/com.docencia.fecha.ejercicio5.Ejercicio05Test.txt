@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio5.Ejercicio05Test
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 11, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.docencia.fecha.ejercicio5.Ejercicio05Test
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleNegativeDeltaGreaterThanOneDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleNegativeDeltaGreaterThanOneDay(Ejercicio05Test.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldPreserveSecondsAndNanos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldPreserveSecondsAndNanos(Ejercicio05Test.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapAndPreserveSecondsAndNanos -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapAndPreserveSecondsAndNanos(Ejercicio05Test.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleVeryLargePositiveDelta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleVeryLargePositiveDelta(Ejercicio05Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldReturnSameTimeWhenDeltaIsZero -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldReturnSameTimeWhenDeltaIsZero(Ejercicio05Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldSubtractMinutesWithinSameDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldSubtractMinutesWithinSameDay(Ejercicio05Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapToPreviousDayWhenSubtractingPastMidnight -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapToPreviousDayWhenSubtractingPastMidnight(Ejercicio05Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleVeryLargeNegativeDelta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleVeryLargeNegativeDelta(Ejercicio05Test.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldAddMinutesWithinSameDay -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldAddMinutesWithinSameDay(Ejercicio05Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldThrowWhenTimeIsNull -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldThrowWhenTimeIsNull(Ejercicio05Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.lambda$shouldThrowWhenTimeIsNull$0(Ejercicio05Test.java:14)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapToNextDayWhenPassingMidnight -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldWrapToNextDayWhenPassingMidnight(Ejercicio05Test.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleDeltaGreaterThanOneDay -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio5.Ejercicio05.sumarMinutos(Ejercicio05.java:23)
+	at com.docencia.fecha.ejercicio5.Ejercicio05Test.shouldHandleDeltaGreaterThanOneDay(Ejercicio05Test.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

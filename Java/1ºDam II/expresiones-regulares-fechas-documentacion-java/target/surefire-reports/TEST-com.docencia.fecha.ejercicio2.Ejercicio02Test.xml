@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.016" tests="18" errors="15" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/test-classes:/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/classes:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/surefire/surefirebooter-20260204161716990_3.jar /Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/surefire 2026-02-04T16-17-16_955-jvmRun1 surefire-20260204161716990_1tmp surefire_0-20260204161716990_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/test-classes:/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/classes:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jpexposito"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java/target/surefire/surefirebooter-20260204161716990_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.17+0"/>
+    <property name="user.name" value="jpexposito"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jpexposito/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/q5/g2wxn8j93dd20yscy5pqcnt00000gn/T/"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="/Users/jpexposito/Downloads/expresiones-regulares-fechas-documentacion-java"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jpexposito/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.17+0"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldReturnTrueWhenTimeEqualsInicioInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.002">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeEqualsInicioInCircularInterval(Ejercicio02Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldWorkWithSecondsPrecisionNearFinInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldWorkWithSecondsPrecisionNearFinInCircularInterval(Ejercicio02Test.java:95)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeIsBetweenFinAndInicioInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeIsBetweenFinAndInicioInCircularInterval(Ejercicio02Test.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnTrueWhenTimeInsideNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeInsideNormalInterval(Ejercicio02Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnTrueWhenTimeEqualsInicioInNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeEqualsInicioInNormalInterval(Ejercicio02Test.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeEqualsFinInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeEqualsFinInCircularInterval(Ejercicio02Test.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeEqualsFinInNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeEqualsFinInNormalInterval(Ejercicio02Test.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeBeforeInicioInNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeBeforeInicioInNormalInterval(Ejercicio02Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldThrowWhenInicioIsNull" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <failure message="Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldThrowWhenInicioIsNull(Ejercicio02Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.lambda$shouldThrowWhenInicioIsNull$1(Ejercicio02Test.java:22)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+]]></failure>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeIsExactlyAtFinNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeIsExactlyAtFinNormalInterval(Ejercicio02Test.java:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenTimeAfterFinInNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenTimeAfterFinInNormalInterval(Ejercicio02Test.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnTrueWhenTimeIsEarlyMorningInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeIsEarlyMorningInCircularInterval(Ejercicio02Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnTrueWhenTimeIsExactlyAtInicioNormalInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeIsExactlyAtInicioNormalInterval(Ejercicio02Test.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldThrowWhenTimeIsNull" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <failure message="Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldThrowWhenTimeIsNull(Ejercicio02Test.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.lambda$shouldThrowWhenTimeIsNull$0(Ejercicio02Test.java:16)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+]]></failure>
+  </testcase>
+  <testcase name="shouldReturnTrueWhenTimeIsLateNightInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnTrueWhenTimeIsLateNightInCircularInterval(Ejercicio02Test.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldThrowWhenFinIsNull" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.001">
+    <failure message="Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldThrowWhenFinIsNull(Ejercicio02Test.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.lambda$shouldThrowWhenFinIsNull$2(Ejercicio02Test.java:28)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+]]></failure>
+  </testcase>
+  <testcase name="shouldIncludeLastNanoOfDayInCircularInterval" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldIncludeLastNanoOfDayInCircularInterval(Ejercicio02Test.java:101)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="shouldReturnFalseWhenInicioEqualsFinAtSameTime" classname="com.docencia.fecha.ejercicio2.Ejercicio02Test" time="0.0">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio2.Ejercicio02.estaDentroCircular(Ejercicio02.java:28)
+	at com.docencia.fecha.ejercicio2.Ejercicio02Test.shouldReturnFalseWhenInicioEqualsFinAtSameTime(Ejercicio02Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+</testsuite>

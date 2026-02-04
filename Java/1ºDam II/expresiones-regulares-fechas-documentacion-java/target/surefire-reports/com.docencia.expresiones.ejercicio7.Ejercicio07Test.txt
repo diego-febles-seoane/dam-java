@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio7.Ejercicio07Test
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio7.Ejercicio07Test
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordXyZ12345Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordXyZ12345Test(Ejercicio07Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectTooShortTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectTooShortTest(Ejercicio07Test.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectNullTest(Ejercicio07Test.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingUppercaseTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingUppercaseTest(Ejercicio07Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectContainsSpaceTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectContainsSpaceTest(Ejercicio07Test.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectEmptyStringTest(Ejercicio07Test.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordAbcdefg1Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordAbcdefg1Test(Ejercicio07Test.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingLowercaseTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingLowercaseTest(Ejercicio07Test.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordPassWord9Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldAcceptValidPasswordPassWord9Test(Ejercicio07Test.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectTooLongTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectTooLongTest(Ejercicio07Test.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingDigitTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio7.Ejercicio07.isValidPasswordMin(Ejercicio07.java:24)
+	at com.docencia.expresiones.ejercicio7.Ejercicio07Test.shouldRejectMissingDigitTest(Ejercicio07Test.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

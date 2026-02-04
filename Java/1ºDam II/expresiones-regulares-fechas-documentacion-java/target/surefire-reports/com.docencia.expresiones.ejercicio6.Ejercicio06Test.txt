@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio6.Ejercicio06Test
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio6.Ejercicio06Test
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordHolaHolaTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordHolaHolaTest(Ejercicio06Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNullTest(Ejercicio06Test.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNoRepetitionHolaAdiosTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNoRepetitionHolaAdiosTest(Ejercicio06Test.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordIgnoringCaseTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordIgnoringCaseTest(Ejercicio06Test.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordTestTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordTestTest(Ejercicio06Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordInsideSentenceTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordInsideSentenceTest(Ejercicio06Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectEmptyStringTest(Ejercicio06Test.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectWithMultipleSpacesBetweenWordsTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectWithMultipleSpacesBetweenWordsTest(Ejercicio06Test.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordQueQueTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldDetectRepeatedWordQueQueTest(Ejercicio06Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectConcatenatedHolaholaTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectConcatenatedHolaholaTest(Ejercicio06Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNonConsecutiveRepetitionHolaAdiosHolaTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio6.Ejercicio06.hasConsecutiveRepeatedWord(Ejercicio06.java:19)
+	at com.docencia.expresiones.ejercicio6.Ejercicio06Test.shouldRejectNonConsecutiveRepetitionHolaAdiosHolaTest(Ejercicio06Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio4.Ejercicio4Test
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio4.Ejercicio4Test
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptLowerProvinceBound01Test -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptLowerProvinceBound01Test(Ejercicio4Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectNullTest(Ejercicio4Test.java:95)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectProvince00Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectProvince00Test(Ejercicio4Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectWithSeparatorTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectWithSeparatorTest(Ejercicio4Test.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectProvince53Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectProvince53Test(Ejercicio4Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectContainsLettersTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectContainsLettersTest(Ejercicio4Test.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp01001Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp01001Test(Ejercicio4Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp28013Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp28013Test(Ejercicio4Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptUpperProvinceBound52Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptUpperProvinceBound52Test(Ejercicio4Test.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectEmptyStringTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectEmptyStringTest(Ejercicio4Test.java:101)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectLeadingOrTrailingSpacesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectLeadingOrTrailingSpacesTest(Ejercicio4Test.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectTooShort1234Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectTooShort1234Test(Ejercicio4Test.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectNonNumericABCDETest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldRejectNonNumericABCDETest(Ejercicio4Test.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp52001Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio4.Ejercicio04.isValidCodigoPostalES(Ejercicio04.java:15)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.shouldAcceptValidCp52001Test(Ejercicio4Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

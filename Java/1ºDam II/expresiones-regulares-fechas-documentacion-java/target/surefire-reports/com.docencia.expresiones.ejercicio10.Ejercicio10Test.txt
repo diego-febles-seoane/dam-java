@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio10.Ejercicio10Test
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio10.Ejercicio10Test
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_separadores -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_separadores(Ejercicio10Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_empiezaLetra -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_empiezaLetra(Ejercicio10Test.java:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_00000000A -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_00000000A(Ejercicio10Test.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_guion -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_guion(Ejercicio10Test.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_12345678A -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_12345678A(Ejercicio10Test.java:107)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_minuscula -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_minuscula(Ejercicio10Test.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_53077918A -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_letra_53077918A(Ejercicio10Test.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_99999999_conLetraCorrecta -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_99999999_conLetraCorrecta(Ejercicio10Test.java:132)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_00000000T -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_00000000T(Ejercicio10Test.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_sinLetra -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_sinLetra(Ejercicio10Test.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_null -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_null(Ejercicio10Test.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_12345678Z -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_12345678Z(Ejercicio10Test.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_53077918Y -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.valido_53077918Y(Ejercicio10Test.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_99999999_conLetraIncorrecta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_99999999_conLetraIncorrecta(Ejercicio10Test.java:146)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_vacio -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_vacio(Ejercicio10Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_9digitos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_9digitos(Ejercicio10Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_espacios -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_espacios(Ejercicio10Test.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_sobranChars -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_sobranChars(Ejercicio10Test.java:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_no8digitos -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_no8digitos(Ejercicio10Test.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_7digitos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio10.Ejercicio10.validarDNI(Ejercicio10.java:24)
+	at com.docencia.expresiones.ejercicio10.Ejercicio10Test.invalido_formato_7digitos(Ejercicio10Test.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

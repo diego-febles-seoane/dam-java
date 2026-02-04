@@ -1,0 +1,156 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio6.Ejercicio06Test
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 5, Errors: 9, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.docencia.fecha.ejercicio6.Ejercicio06Test
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenStartEqualsEndAndRequirementIsPositive -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenStartEqualsEndAndRequirementIsPositive(Ejercicio06Test.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenFinTurnoIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenFinTurnoIsNull(Ejercicio06Test.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.lambda$shouldThrowWhenFinTurnoIsNull$0(Ejercicio06Test.java:14)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsGreaterThan24 -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsGreaterThan24(Ejercicio06Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.lambda$shouldThrowWhenMinDescansoHorasIsGreaterThan24$4(Ejercicio06Test.java:38)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRequirementIs1AndRestIsOneHourNextDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRequirementIs1AndRestIsOneHourNextDay(Ejercicio06Test.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsZero -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsZero(Ejercicio06Test.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.lambda$shouldThrowWhenMinDescansoHorasIsZero$2(Ejercicio06Test.java:26)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRequirementIs24AndRestIs24Exactly -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRequirementIs24AndRestIs24Exactly(Ejercicio06Test.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsExactlyRequiredNextDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsExactlyRequiredNextDay(Ejercicio06Test.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsExactlyRequiredSameDay -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsExactlyRequiredSameDay(Ejercicio06Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsNegative -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenMinDescansoHorasIsNegative(Ejercicio06Test.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.lambda$shouldThrowWhenMinDescansoHorasIsNegative$3(Ejercicio06Test.java:32)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsMoreThanRequiredNextDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsMoreThanRequiredNextDay(Ejercicio06Test.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsMoreThanRequiredSameDay -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnTrueWhenRestIsMoreThanRequiredSameDay(Ejercicio06Test.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenInicioSiguienteIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldThrowWhenInicioSiguienteIsNull(Ejercicio06Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.lambda$shouldThrowWhenInicioSiguienteIsNull$1(Ejercicio06Test.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenRestIsLessThanRequiredNextDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenRestIsLessThanRequiredNextDay(Ejercicio06Test.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenRestIsLessThanRequiredSameDay -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio6.Ejercicio06.cumpleDescanso(Ejercicio06.java:28)
+	at com.docencia.fecha.ejercicio6.Ejercicio06Test.shouldReturnFalseWhenRestIsLessThanRequiredSameDay(Ejercicio06Test.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

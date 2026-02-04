@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio9.Ejercicio9Test
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio9.Ejercicio9Test
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectMissingZoneTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectMissingZoneTest(Ejercicio9Test.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectNullTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectNullTest(Ejercicio9Test.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptBoundaryTimesAndOffsetsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptBoundaryTimesAndOffsetsTest(Ejercicio9Test.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithMillisAndOffsetTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithMillisAndOffsetTest(Ejercicio9Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectMonthOrDayOutOfRangeTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectMonthOrDayOutOfRangeTest(Ejercicio9Test.java:105)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectSpaceInsteadOfTTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectSpaceInsteadOfTTest(Ejercicio9Test.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithoutMillisWithPositiveOffsetTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithoutMillisWithPositiveOffsetTest(Ejercicio9Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectTooManyMillisDigitsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectTooManyMillisDigitsTest(Ejercicio9Test.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectDotWithoutMillisDigitsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectDotWithoutMillisDigitsTest(Ejercicio9Test.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectEmptyStringTest(Ejercicio9Test.java:121)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectOffsetWithoutLeadingZeroTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectOffsetWithoutLeadingZeroTest(Ejercicio9Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectLeadingOrTrailingSpacesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectLeadingOrTrailingSpacesTest(Ejercicio9Test.java:127)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectOffsetOutOfRangeTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectOffsetOutOfRangeTest(Ejercicio9Test.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectTimeOutOfRangeTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldRejectTimeOutOfRangeTest(Ejercicio9Test.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithZTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWithZTest(Ejercicio9Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWith1DigitMillisAndNegativeOffsetTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio9.Ejercicio09.isValidIsoDateTimeWithZone(Ejercicio09.java:20)
+	at com.docencia.expresiones.ejercicio9.Ejercicio9Test.shouldAcceptValidIsoWith1DigitMillisAndNegativeOffsetTest(Ejercicio9Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

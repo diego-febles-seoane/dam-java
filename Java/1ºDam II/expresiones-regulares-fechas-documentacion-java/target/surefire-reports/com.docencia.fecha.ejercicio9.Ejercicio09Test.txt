@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.fecha.ejercicio9.Ejercicio09Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 7, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.docencia.fecha.ejercicio9.Ejercicio09Test
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenListAlreadySortedAscending -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenListAlreadySortedAscending(Ejercicio09Test.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldWorkWithSingleElementList -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldWorkWithSingleElementList(Ejercicio09Test.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnMinMaxForExampleList -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnMinMaxForExampleList(Ejercicio09Test.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListContainsNull -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListContainsNull(Ejercicio09Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.lambda$shouldThrowWhenListContainsNull$2(Ejercicio09Test.java:30)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldHandleSecondsAndNanos -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldHandleSecondsAndNanos(Ejercicio09Test.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListIsEmpty -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListIsEmpty(Ejercicio09Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.lambda$shouldThrowWhenListIsEmpty$1(Ejercicio09Test.java:23)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenAllElementsEqual -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenAllElementsEqual(Ejercicio09Test.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListIsNull -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldThrowWhenListIsNull(Ejercicio09Test.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.lambda$shouldThrowWhenListIsNull$0(Ejercicio09Test.java:17)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenListAlreadySortedDescending -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnCorrectMinMaxWhenListAlreadySortedDescending(Ejercicio09Test.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnNewArrayInstance -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.fecha.ejercicio9.Ejercicio09.minMax(Ejercicio09.java:24)
+	at com.docencia.fecha.ejercicio9.Ejercicio09Test.shouldReturnNewArrayInstance(Ejercicio09Test.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
