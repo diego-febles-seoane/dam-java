@@ -21,6 +21,25 @@ import java.util.List;
      */
 public class Ejercicio09 {
     public static LocalTime[] minMax(List<LocalTime> horas) {
-        throw new UnsupportedOperationException("TODO");
+        if (horas == null || horas.isEmpty()){
+            throw new IllegalArgumentException();
+        }
+        LocalTime[] resultado = new LocalTime[2];
+        LocalTime minimo = horas.get(0);
+        LocalTime maximo = horas.get(0);
+        for (LocalTime fecha : horas){
+            if (fecha == null){
+                throw new IllegalArgumentException();
+            }
+            if (fecha.isBefore(minimo)){
+                minimo = fecha;
+            }
+            if (fecha.isAfter(maximo)){
+                maximo = fecha;
+            }
+        }   
+        resultado [0] = minimo;
+        resultado [1] = maximo;
+        return resultado;
     }
 }

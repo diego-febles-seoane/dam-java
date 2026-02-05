@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.docencia.clases.ejercicio4.TarjetaEmbarqueTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 5, Errors: 6, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.clases.ejercicio4.TarjetaEmbarqueTest
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldHandleCrossMidnightWindow -- Time elapsed: 0.001 s <<< ERROR!
+Tests run: 11, Failures: 5, Errors: 6, Skipped: 0, Time elapsed: 0.140 s <<< FAILURE! -- in com.docencia.clases.ejercicio4.TarjetaEmbarqueTest
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldHandleCrossMidnightWindow -- Time elapsed: 0.034 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldHandleCrossMidnightWindow(TarjetaEmbarqueTest.java:86)
@@ -10,7 +10,7 @@ java.lang.UnsupportedOperationException: TODO
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingAtClosingTimeExclusive -- Time elapsed: 0 s <<< ERROR!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingAtClosingTimeExclusive -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingAtClosingTimeExclusive(TarjetaEmbarqueTest.java:59)
@@ -18,7 +18,7 @@ java.lang.UnsupportedOperationException: TODO
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldReturnFalseWhenVueloIsInFuture -- Time elapsed: 0 s <<< ERROR!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldReturnFalseWhenVueloIsInFuture -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldReturnFalseWhenVueloIsInFuture(TarjetaEmbarqueTest.java:41)
@@ -26,7 +26,7 @@ java.lang.UnsupportedOperationException: TODO
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingInsideWindow -- Time elapsed: 0 s <<< ERROR!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingInsideWindow -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingInsideWindow(TarjetaEmbarqueTest.java:67)
@@ -34,7 +34,7 @@ java.lang.UnsupportedOperationException: TODO
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenAnyFieldIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenAnyFieldIsNull -- Time elapsed: 0.018 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
@@ -50,7 +50,7 @@ Caused by: java.lang.UnsupportedOperationException: TODO
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
 	... 6 more
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenFechaVueloIsInPast -- Time elapsed: 0 s <<< FAILURE!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenFechaVueloIsInPast -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
@@ -66,7 +66,7 @@ Caused by: java.lang.UnsupportedOperationException: TODO
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
 	... 6 more
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenHoyIsNullOnValidate -- Time elapsed: 0 s <<< FAILURE!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenHoyIsNullOnValidate -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
@@ -82,7 +82,7 @@ Caused by: java.lang.UnsupportedOperationException: TODO
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
 	... 6 more
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenAhoraIsNull -- Time elapsed: 0.001 s <<< FAILURE!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenAhoraIsNull -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
@@ -98,7 +98,7 @@ Caused by: java.lang.UnsupportedOperationException: TODO
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
 	... 6 more
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenCodigoDoesNotMatchRegex -- Time elapsed: 0 s <<< FAILURE!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldThrowWhenCodigoDoesNotMatchRegex -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
@@ -114,7 +114,7 @@ Caused by: java.lang.UnsupportedOperationException: TODO
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
 	... 6 more
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingBeforeWindow -- Time elapsed: 0 s <<< ERROR!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingBeforeWindow -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldNotAllowBoardingBeforeWindow(TarjetaEmbarqueTest.java:76)
@@ -122,7 +122,7 @@ java.lang.UnsupportedOperationException: TODO
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingAtOpeningTimeInclusive -- Time elapsed: 0 s <<< ERROR!
+com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingAtOpeningTimeInclusive -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: TODO
 	at com.docencia.clases.ejercicio4.TarjetaEmbarque.puedeEmbarcar(TarjetaEmbarque.java:23)
 	at com.docencia.clases.ejercicio4.TarjetaEmbarqueTest.shouldAllowBoardingAtOpeningTimeInclusive(TarjetaEmbarqueTest.java:50)
