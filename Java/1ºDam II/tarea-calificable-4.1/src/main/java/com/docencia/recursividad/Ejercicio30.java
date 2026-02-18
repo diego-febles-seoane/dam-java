@@ -1,0 +1,11 @@
+package com.docencia.recursividad;
+
+public class Ejercicio30 {
+  /**
+   * Subset sum (existe subconjunto)
+   * TODO: Implementar usando recursividad.
+   */
+  public static boolean existeSubconjuntoSuma(int[] arreglo, int objetivo) {
+    throw new UnsupportedOperationException("Pendiente de implementar");
+  }
+}
