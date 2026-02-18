@@ -6,6 +6,14 @@ public class Ejercicio02 {
    * TODO: Implementar usando recursividad.
    */
   public static long potencia(long base, int exponente) {
-    throw new UnsupportedOperationException("Pendiente de implementar");
+    if (exponente < 0){
+      throw new IllegalArgumentException();
+    }
+    if (exponente == 0){
+      return 1;
+    }
+
+
+    return potencia(base, exponente-1);
   }
 }
