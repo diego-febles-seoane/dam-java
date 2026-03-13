@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.hito1.RequiredMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.docencia.hito1.RequiredMethodsTest
+com.docencia.hito1.RequiredMethodsTest.userServiceImplDebeImplementarInterfazYTenerConstructorConRepo -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.service.impl.UserServiceImpl
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.userServiceImplDebeImplementarInterfazYTenerConstructorConRepo(RequiredMethodsTest.java:152)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.mainDebeTenerMainYMetodosPrivadosEstaticosRecomendados -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.app.Main
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.mainDebeTenerMainYMetodosPrivadosEstaticosRecomendados(RequiredMethodsTest.java:209)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.usuarioDebeExtenderPersonaYTenerConstructoresYMetodos -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.model.Usuario
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.usuarioDebeExtenderPersonaYTenerConstructoresYMetodos(RequiredMethodsTest.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.iAuthServiceDebeSerInterfazConRegisterYLogin -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.service.IAuthService
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.iAuthServiceDebeSerInterfazConRegisterYLogin(RequiredMethodsTest.java:165)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.validacionesDebeSerClaseEstaticaConMetodos -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.util.Validaciones
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.validacionesDebeSerClaseEstaticaConMetodos(RequiredMethodsTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.authServiceImplDebeImplementarInterfazYTenerConstructorValido -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.service.impl.AuthServiceImpl
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.authServiceImplDebeImplementarInterfazYTenerConstructorValido(RequiredMethodsTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.personaDebeSerAbstractaYConConstructoresYMetodosBasicos -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.model.Persona
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.personaDebeSerAbstractaYConConstructoresYMetodosBasicos(RequiredMethodsTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.iUserServiceDebeSerInterfazConMetodosCRUD -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.service.IUserService
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.iUserServiceDebeSerInterfazConMetodosCRUD(RequiredMethodsTest.java:133)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.debeExistirTodasLasClasesConSuPaquete -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.app.Main
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.debeExistirTodasLasClasesConSuPaquete(RequiredMethodsTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.userRepositoryImplDebeImplementarInterfaz -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.repository.impl.UserRepositoryImpl
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.userRepositoryImplDebeImplementarInterfaz(RequiredMethodsTest.java:125)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito1.RequiredMethodsTest.iUserRepositoryDebeSerInterfazConCRUD -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase (o paquete incorrecto): com.docencia.repository.IUserRepository
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito1.ReflectUtils.mustLoad(ReflectUtils.java:20)
+	at com.docencia.hito1.RequiredMethodsTest.iUserRepositoryDebeSerInterfazConCRUD(RequiredMethodsTest.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

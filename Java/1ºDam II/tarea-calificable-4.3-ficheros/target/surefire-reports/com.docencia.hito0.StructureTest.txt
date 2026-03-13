@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.hito0.StructureTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 1, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in com.docencia.hito0.StructureTest
+com.docencia.hito0.StructureTest.debenExistirLasClasesPorReflection -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.ClassNotFoundException: com.docencia.app.Main
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:377)
+	at com.docencia.hito0.StructureTest.debenExistirLasClasesPorReflection(StructureTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeMain -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta el archivo: src/main/java/com/docencia/app/Main.java ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeMain(StructureTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeImplementacionesDeServicio -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta el archivo: src/main/java/com/docencia/service/impl/AuthServiceImpl.java ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeImplementacionesDeServicio(StructureTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeInterfacesDeServicio -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta el archivo: src/main/java/com/docencia/service/IAuthService.java ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeInterfacesDeServicio(StructureTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeValidaciones -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta el archivo: src/main/java/com/docencia/util/Validaciones.java ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeValidaciones(StructureTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeModelo -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta el archivo: src/main/java/com/docencia/model/Usuario.java ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.docencia.hito0.StructureTest.debeExistirEstructuraDeArchivosdeModelo(StructureTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

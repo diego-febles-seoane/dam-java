@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.hito2.CrudEliminarPorEmailDevuelveTrueTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! -- in com.docencia.hito2.CrudEliminarPorEmailDevuelveTrueTest
+com.docencia.hito2.CrudEliminarPorEmailDevuelveTrueTest.eliminarPorEmail_debe_devolver_true_cuando_elimina -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Falta la clase: com.docencia.repository.impl.UserRepositoryImpl
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.docencia.hito2.H3Reflect.mustLoad(H3Reflect.java:17)
+	at com.docencia.hito2.H3Reflect.newInstance(H3Reflect.java:23)
+	at com.docencia.hito2.H3Factory.newRepo(H3Factory.java:9)
+	at com.docencia.hito2.CrudEliminarPorEmailDevuelveTrueTest.eliminarPorEmail_debe_devolver_true_cuando_elimina(CrudEliminarPorEmailDevuelveTrueTest.java:11)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
