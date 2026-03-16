@@ -1,10 +1,10 @@
 package com.docencia.service.impl;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import com.docencia.model.Usuario;
 import com.docencia.repository.IUserRepository;
-import com.docencia.repository.impl.UserRepositoryImpl;
 import com.docencia.service.IUserService;
 import com.docencia.util.Validaciones;
 
@@ -54,6 +54,19 @@ public class UserServiceImpl implements IUserService{
     public Usuario cambiarPassword(String email, String nuevaPassword) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'cambiarPassword'");
+    }
+
+    @Override
+    public Set<Usuario> obtenerBloquados() {
+        Set<Usuario> bloqueados = new HashSet<>();
+        Set<Usuario> todos = userRepository.findAll();
+
+        for (Usuario usuario : todos) {
+            if (usuario.getBloqueado()){
+                bloqueados.add(usuario);
+            }
+        }
+        return bloqueados;
     }
 
 }

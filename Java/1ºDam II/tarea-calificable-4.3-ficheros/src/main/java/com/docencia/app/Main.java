@@ -1,13 +1,13 @@
 package com.docencia.app;
 
+import java.util.Scanner;
+
 import com.docencia.repository.IUserRepository;
 import com.docencia.repository.impl.UserRepositoryImpl;
 import com.docencia.service.IAuthService;
 import com.docencia.service.IUserService;
 import com.docencia.service.impl.AuthServiceImpl;
 import com.docencia.service.impl.UserServiceImpl;
-
-import java.util.Scanner;
 
 public class Main {
 

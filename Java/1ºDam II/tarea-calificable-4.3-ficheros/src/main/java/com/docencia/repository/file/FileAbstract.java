@@ -40,7 +40,7 @@ public abstract class FileAbstract {
             while ((line = reader.readLine()) != null) {
                 //line = 0;Juan;email@gmail.com;123456
                 String[] datos = line.split(";");//[0][Juan][email@gmail][123456]
-                Usuario usuarioLeido = new Usuario(Integer.parseInt(datos[0]), datos[1], datos[2], datos[3]);
+                Usuario usuarioLeido = new Usuario(Integer.parseInt(datos[0]), datos[2], datos[1], datos[3]);
                 usuariosLectura.add(usuarioLeido);
             }
         } catch (IOException e) {
