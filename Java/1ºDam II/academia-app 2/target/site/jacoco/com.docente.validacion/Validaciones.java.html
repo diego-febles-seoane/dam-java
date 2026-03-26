@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Validaciones.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CRUD Academia</a> &gt; <a href="index.source.html" class="el_package">com.docente.validacion</a> &gt; <span class="el_source">Validaciones.java</span></div><h1>Validaciones.java</h1><pre class="source lang-java linenums">package com.docente.validacion;
+
+/**
+ * Clase de validaciones para los datos de las personas
+ */
+<span class="nc" id="L6">public class Validaciones {</span>
+
+    /**
+     * Valida que el identificador sea correcto
+     * @param identificador que se desea validar
+     * @return true/false
+     */
+    public static boolean esIdentificadorValido(String identificador) {
+<span class="nc" id="L14">        return esCadenaNoNula(identificador);</span>
+    }
+
+    /**
+     * Valida que el nombre sea correcto
+     * @param cadena que se desea validar
+     * @return true/false
+     */
+    private static boolean esCadenaNoNula(String cadena) {
+<span class="nc bnc" id="L23" title="All 4 branches missed.">        return cadena != null &amp;&amp; !cadena.trim().isEmpty();</span>
+    }
+
+    /**
+     * Valida que el nombre sea correcto
+     * @param nombre que se desea validar
+     * @return true/false
+     */
+    public static boolean esNombreValido(String nombre) {
+<span class="nc" id="L32">        return esCadenaNoNula(nombre);</span>
+    }
+
+    /**
+     * Valida que el curso sea correcto
+     * @param curso que se desea validar
+     * @return true/false
+     */
+
+    public static boolean esCursoValido(String curso) {
+<span class="nc" id="L42">        return esCadenaNoNula(curso);</span>
+    }
+
+    /**
+     * Valida que la edad sea correcta
+     * @param edad que se desea validar
+     * @return  true/false
+     */
+    public static boolean esEdadValida(int edad) {
+<span class="nc bnc" id="L51" title="All 4 branches missed.">        return edad &gt;= 17 &amp;&amp; edad &lt; 100;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
