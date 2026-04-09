@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro>
+  <profesores>
+    <profesor id="P01">
+      <nombre>Ana Pérez</nombre>
+      <departamento>Informática</departamento>
+    </profesor>
+    <profesor id="P02">
+      <nombre>Luis Martín</nombre>
+      <departamento>FOL</departamento>
+    </profesor>
+    <profesor id="P03">
+      <nombre>Marta Suárez</nombre>
+      <departamento>Bases de Datos</departamento>
+    </profesor>
+  </profesores>
+  <modulos>
+    <modulo id="M01">
+      <nombre>Programación</nombre>
+      <profesorId>P01</profesorId>
+    </modulo>
+    <modulo id="M02">
+      <nombre>Acceso a Datos</nombre>
+      <profesorId>P01</profesorId>
+    </modulo>
+    <modulo id="M03">
+      <nombre>Formación y Orientación Laboral</nombre>
+      <profesorId>P02</profesorId>
+    </modulo>
+    <modulo id="M04">
+      <nombre>Bases de Datos</nombre>
+      <profesorId>P03</profesorId>
+    </modulo>
+  </modulos>
+</centro>

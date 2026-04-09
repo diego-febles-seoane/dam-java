@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Evaluacion.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">centro-hibrido-xml-json</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.centro.model</a> &gt; <span class="el_source">Evaluacion.java</span></div><h1>Evaluacion.java</h1><pre class="source lang-java linenums">package com.ejemplo.centro.model;
+
+import java.util.Objects;
+
+public class Evaluacion {
+    private String alumno;
+    private String moduloId;
+    private double nota;
+
+<span class="fc" id="L10">    public Evaluacion() {</span>
+<span class="fc" id="L11">    }</span>
+
+<span class="fc" id="L13">    public Evaluacion(String alumno, String moduloId, double nota) {</span>
+<span class="fc" id="L14">        this.alumno = alumno;</span>
+<span class="fc" id="L15">        this.moduloId = moduloId;</span>
+<span class="fc" id="L16">        this.nota = nota;</span>
+<span class="fc" id="L17">    }</span>
+
+    public String getAlumno() {
+<span class="fc" id="L20">        return alumno;</span>
+    }
+
+    public void setAlumno(String alumno) {
+<span class="fc" id="L24">        this.alumno = alumno;</span>
+<span class="fc" id="L25">    }</span>
+
+    public String getModuloId() {
+<span class="fc" id="L28">        return moduloId;</span>
+    }
+
+    public void setModuloId(String moduloId) {
+<span class="fc" id="L32">        this.moduloId = moduloId;</span>
+<span class="fc" id="L33">    }</span>
+
+    public double getNota() {
+<span class="fc" id="L36">        return nota;</span>
+    }
+
+    public void setNota(double nota) {
+<span class="fc" id="L40">        this.nota = nota;</span>
+<span class="fc" id="L41">    }</span>
+
+    @Override
+    public boolean equals(Object o) {
+<span class="pc bpc" id="L45" title="1 of 2 branches missed.">        if (this == o) return true;</span>
+<span class="pc bpc" id="L46" title="1 of 2 branches missed.">        if (!(o instanceof Evaluacion that)) return false;</span>
+<span class="pc bpc" id="L47" title="1 of 4 branches missed.">        return Objects.equals(alumno, that.alumno) &amp;&amp; Objects.equals(moduloId, that.moduloId);</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="nc" id="L52">        return Objects.hash(alumno, moduloId);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

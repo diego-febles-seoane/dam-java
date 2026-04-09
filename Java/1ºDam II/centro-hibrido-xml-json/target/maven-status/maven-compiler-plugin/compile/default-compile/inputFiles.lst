@@ -1,0 +1,15 @@
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/Main.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/CentroData.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/EstadoCentro.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/Evaluacion.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/Incidencia.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/Modulo.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/model/Profesor.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/repository/CentroXmlRepository.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/repository/CentroXmlRepositoryImpl.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/repository/EstadoJsonRepository.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/repository/EstadoJsonRepositoryImpl.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/service/CentroService.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/service/CentroServiceImpl.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/util/JsonManager.java
+/Users/jpexposito/Downloads/centro-hibrido-xml-json/src/main/java/com/ejemplo/centro/util/XmlManager.java

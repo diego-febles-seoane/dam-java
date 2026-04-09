@@ -1,0 +1,50 @@
+puntosObtenidos=0.00
+puntosMaximos=10.00
+notaSobre10=0.00
+
+NOTA_POR_BLOQUE (bloque | puntosObtenidos | puntosMaximos | notaSobre10)
+repositorio_xml | 0.00 | 1.60 | 0.00
+repositorio_json | 0.00 | 2.40 | 0.00
+servicio | 0.00 | 6.00 | 0.00
+
+DETALLE_POR_TEST (bloque | clase | test | correcto | peso | puntos | detalle)
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlDevuelveCuatroModulosInicialesTest | False | 0.20 | 0.00 | Unimplemented method 'findAllModulos'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlDevuelveTresProfesoresInicialesTest | False | 0.20 | 0.00 | Unimplemented method 'findAllProfesores'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlFindAllModulosDevuelveCopiaDefensivaTest | False | 0.20 | 0.00 | Unimplemented method 'findAllModulos'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlFindAllProfesoresDevuelveCopiaDefensivaTest | False | 0.20 | 0.00 | Unimplemented method 'findAllProfesores'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlNoRecuperaModuloInexistentePorIdTest | False | 0.20 | 0.00 | Unimplemented method 'findModuloById'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlNoRecuperaProfesorInexistentePorIdTest | False | 0.20 | 0.00 | Unimplemented method 'findProfesorById'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlRecuperaModuloExistentePorIdTest | False | 0.20 | 0.00 | Unimplemented method 'findModuloById'
+repositorio_xml | com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest | xmlRecuperaProfesorExistentePorIdTest | False | 0.20 | 0.00 | Unimplemented method 'findProfesorById'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonDevuelveCuatroIncidenciasInicialesTest | False | 0.20 | 0.00 | Unimplemented method 'findAllIncidencias'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonDevuelveListaVaciaSiNoHayEvaluacionesDelModuloTest | False | 0.20 | 0.00 | Unimplemented method 'findEvaluacionesByModuloId'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonDevuelveListaVaciaSiNoHayIncidenciasDelProfesorTest | False | 0.20 | 0.00 | Unimplemented method 'findIncidenciasByProfesorId'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonDevuelveSeisEvaluacionesInicialesTest | False | 0.20 | 0.00 | Unimplemented method 'findAllEvaluaciones'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonFiltraEvaluacionesPorModuloTest | False | 0.20 | 0.00 | Unimplemented method 'findEvaluacionesByModuloId'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonFiltraIncidenciasPorProfesorTest | False | 0.20 | 0.00 | Unimplemented method 'findIncidenciasByProfesorId'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonFindAllEvaluacionesDevuelveCopiaDefensivaTest | False | 0.20 | 0.00 | Unimplemented method 'findAllEvaluaciones'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonFindAllIncidenciasDevuelveCopiaDefensivaTest | False | 0.20 | 0.00 | Unimplemented method 'findAllIncidencias'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonGuardaNuevaEvaluacionTest | False | 0.20 | 0.00 | Unimplemented method 'saveEvaluacion'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonGuardaNuevaIncidenciaTest | False | 0.20 | 0.00 | Unimplemented method 'saveIncidencia'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonPersisteCambiosEntreLecturasTest | False | 0.20 | 0.00 | Unimplemented method 'saveEvaluacion'
+repositorio_json | com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest | jsonSobrescribeEvaluacionDuplicadaPorAlumnoYModuloTest | False | 0.20 | 0.00 | Unimplemented method 'saveEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioBuscaModuloExistenteTest | False | 0.30 | 0.00 | Unimplemented method 'buscarModulo'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioBuscaProfesorExistenteTest | False | 0.30 | 0.00 | Unimplemented method 'buscarProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioBuscarProfesorRecortaEspaciosTest | False | 0.30 | 0.00 | Unimplemented method 'buscarProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioCalculaMediaCorrectaDeModuloTest | False | 0.30 | 0.00 | Unimplemented method 'calcularMediaDeModulo'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioCalculaMediaCorrectaDeProfesorTest | False | 0.30 | 0.00 | Unimplemented method 'calcularMediaDeProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioListaDosModulosDeProfesorTest | False | 0.30 | 0.00 | Unimplemented method 'listarModulosDeProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioListaEvaluacionesDeModuloExistenteTest | False | 0.30 | 0.00 | Unimplemented method 'listarEvaluacionesDeModulo'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioListaIncidenciasDeProfesorExistenteTest | False | 0.30 | 0.00 | Unimplemented method 'listarIncidenciasDeProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioListaVaciaDeModulosSiProfesorNoExisteTest | False | 0.30 | 0.00 | Unimplemented method 'listarModulosDeProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioNoBuscaProfesorConIdBlankTest | False | 0.30 | 0.00 | Unimplemented method 'buscarProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioNoEncuentraProfesorInexistenteTest | False | 0.30 | 0.00 | Unimplemented method 'buscarProfesor'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioNuevaIncidenciaAumentaListadoTest | False | 0.30 | 0.00 | Unimplemented method 'registrarIncidencia'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRechazaEvaluacionConAlumnoBlankTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRechazaEvaluacionConNotaMayorQueDiezTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRechazaEvaluacionDeModuloInexistenteTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRechazaIncidenciaDeProfesorInexistenteTest | False | 0.30 | 0.00 | Unimplemented method 'registrarIncidencia'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRegistraEvaluacionRecortandoEspaciosTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRegistraEvaluacionValidaTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioRegistraIncidenciaValidaTest | False | 0.30 | 0.00 | Unimplemented method 'registrarIncidencia'
+servicio | com.ejemplo.centro.service.B01CentroServiceImplTest | servicioSobrescribeEvaluacionDuplicadaTest | False | 0.30 | 0.00 | Unimplemented method 'registrarEvaluacion'

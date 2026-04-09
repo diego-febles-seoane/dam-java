@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.centro.service.B01CentroServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! -- in com.ejemplo.centro.service.B01CentroServiceImplTest
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscaProfesorExistenteTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'buscarProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.buscarProfesor(CentroServiceImpl.java:26)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscaProfesorExistenteTest(B01CentroServiceImplTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNoEncuentraProfesorInexistenteTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'buscarProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.buscarProfesor(CentroServiceImpl.java:26)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNoEncuentraProfesorInexistenteTest(B01CentroServiceImplTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNoBuscaProfesorConIdBlankTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'buscarProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.buscarProfesor(CentroServiceImpl.java:26)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNoBuscaProfesorConIdBlankTest(B01CentroServiceImplTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscaModuloExistenteTest -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'buscarModulo'
+	at com.ejemplo.centro.service.CentroServiceImpl.buscarModulo(CentroServiceImpl.java:32)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscaModuloExistenteTest(B01CentroServiceImplTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaDosModulosDeProfesorTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'listarModulosDeProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.listarModulosDeProfesor(CentroServiceImpl.java:38)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaDosModulosDeProfesorTest(B01CentroServiceImplTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaVaciaDeModulosSiProfesorNoExisteTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'listarModulosDeProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.listarModulosDeProfesor(CentroServiceImpl.java:38)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaVaciaDeModulosSiProfesorNoExisteTest(B01CentroServiceImplTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraEvaluacionValidaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraEvaluacionValidaTest(B01CentroServiceImplTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraEvaluacionRecortandoEspaciosTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraEvaluacionRecortandoEspaciosTest(B01CentroServiceImplTest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionDeModuloInexistenteTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionDeModuloInexistenteTest(B01CentroServiceImplTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionConAlumnoBlankTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionConAlumnoBlankTest(B01CentroServiceImplTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionConNotaMayorQueDiezTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaEvaluacionConNotaMayorQueDiezTest(B01CentroServiceImplTest.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaEvaluacionesDeModuloExistenteTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'listarEvaluacionesDeModulo'
+	at com.ejemplo.centro.service.CentroServiceImpl.listarEvaluacionesDeModulo(CentroServiceImpl.java:50)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaEvaluacionesDeModuloExistenteTest(B01CentroServiceImplTest.java:101)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioCalculaMediaCorrectaDeModuloTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'calcularMediaDeModulo'
+	at com.ejemplo.centro.service.CentroServiceImpl.calcularMediaDeModulo(CentroServiceImpl.java:56)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioCalculaMediaCorrectaDeModuloTest(B01CentroServiceImplTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioCalculaMediaCorrectaDeProfesorTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'calcularMediaDeProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.calcularMediaDeProfesor(CentroServiceImpl.java:62)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioCalculaMediaCorrectaDeProfesorTest(B01CentroServiceImplTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraIncidenciaValidaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarIncidencia'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarIncidencia(CentroServiceImpl.java:68)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRegistraIncidenciaValidaTest(B01CentroServiceImplTest.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaIncidenciaDeProfesorInexistenteTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarIncidencia'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarIncidencia(CentroServiceImpl.java:68)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioRechazaIncidenciaDeProfesorInexistenteTest(B01CentroServiceImplTest.java:123)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaIncidenciasDeProfesorExistenteTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'listarIncidenciasDeProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.listarIncidenciasDeProfesor(CentroServiceImpl.java:74)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioListaIncidenciasDeProfesorExistenteTest(B01CentroServiceImplTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioSobrescribeEvaluacionDuplicadaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarEvaluacion'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarEvaluacion(CentroServiceImpl.java:44)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioSobrescribeEvaluacionDuplicadaTest(B01CentroServiceImplTest.java:133)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNuevaIncidenciaAumentaListadoTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'registrarIncidencia'
+	at com.ejemplo.centro.service.CentroServiceImpl.registrarIncidencia(CentroServiceImpl.java:68)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioNuevaIncidenciaAumentaListadoTest(B01CentroServiceImplTest.java:141)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscarProfesorRecortaEspaciosTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'buscarProfesor'
+	at com.ejemplo.centro.service.CentroServiceImpl.buscarProfesor(CentroServiceImpl.java:26)
+	at com.ejemplo.centro.service.B01CentroServiceImplTest.servicioBuscarProfesorRecortaEspaciosTest(B01CentroServiceImplTest.java:147)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

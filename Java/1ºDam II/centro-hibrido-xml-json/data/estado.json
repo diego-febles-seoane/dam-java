@@ -1,0 +1,56 @@
+{
+  "evaluaciones": [
+    {
+      "alumno": "Pedro",
+      "moduloId": "M01",
+      "nota": 8.5
+    },
+    {
+      "alumno": "Laura",
+      "moduloId": "M01",
+      "nota": 6.5
+    },
+    {
+      "alumno": "Mario",
+      "moduloId": "M02",
+      "nota": 9.0
+    },
+    {
+      "alumno": "Lucía",
+      "moduloId": "M03",
+      "nota": 7.5
+    },
+    {
+      "alumno": "Nora",
+      "moduloId": "M04",
+      "nota": 8.0
+    },
+    {
+      "alumno": "Iván",
+      "moduloId": "M04",
+      "nota": 5.5
+    }
+  ],
+  "incidencias": [
+    {
+      "profesorId": "P01",
+      "descripcion": "Falta cable HDMI en el aula A1",
+      "fecha": "2026-04-10"
+    },
+    {
+      "profesorId": "P01",
+      "descripcion": "Incidencia con el proyector",
+      "fecha": "2026-04-11"
+    },
+    {
+      "profesorId": "P02",
+      "descripcion": "Aula cerrada al inicio de la sesión",
+      "fecha": "2026-04-12"
+    },
+    {
+      "profesorId": "P03",
+      "descripcion": "Equipos sin conexión a la base de datos",
+      "fecha": "2026-04-13"
+    }
+  ]
+}

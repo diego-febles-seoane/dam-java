@@ -1,0 +1,8 @@
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/model/Profesor.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/model/Profesores.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/repository/ProfesorRepository.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/repository/ProfesorRepositoryImpl.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/repository/ProfesorRepositoryImplJson.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/service/ProfesorService.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/service/ProfesorServiceImpl.java
+/home/dam/Escritorio/ejercicio-profesores-xml/src/main/java/com/examen/profesores/util/XmlManager.java

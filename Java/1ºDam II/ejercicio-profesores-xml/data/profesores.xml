@@ -1,0 +1,12 @@
+<profesores>
+  <profesor id="P001">
+    <nombre>Ana Perez</nombre>
+    <departamento>Informatica</departamento>
+    <activo>true</activo>
+  </profesor>
+  <profesor id="P002">
+    <nombre>Luis Martin</nombre>
+    <departamento>FOL</departamento>
+    <activo>true</activo>
+  </profesor>
+</profesores>

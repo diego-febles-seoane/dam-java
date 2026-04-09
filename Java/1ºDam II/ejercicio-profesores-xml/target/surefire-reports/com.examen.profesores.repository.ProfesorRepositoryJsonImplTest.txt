@@ -1,0 +1,142 @@
+-------------------------------------------------------------------------------
+Test set: com.examen.profesores.repository.ProfesorRepositoryJsonImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.306 s <<< FAILURE! -- in com.examen.profesores.repository.ProfesorRepositoryJsonImplTest
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.noGuardaProfesorDuplicadoPorIdTest -- Time elapsed: 0.238 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.compruebaExistenciaPorIdTest -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.eliminaProfesorExistentePorIdTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.guardaProfesorNuevoTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.recuperaProfesorPorIdTest -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+
+com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.actualizaDepartamentoTest -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.IllegalStateException: No se pudo leer el Json
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:86)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.<init>(ProfesorRepositoryImplJson.java:22)
+	at com.examen.profesores.repository.ProfesorRepositoryJsonImplTest.setUp(ProfesorRepositoryJsonImplTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.examen.profesores.model.Profesores` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4905)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3713)
+	at com.examen.profesores.repository.ProfesorRepositoryImplJson.read(ProfesorRepositoryImplJson.java:84)
+	... 5 more
+

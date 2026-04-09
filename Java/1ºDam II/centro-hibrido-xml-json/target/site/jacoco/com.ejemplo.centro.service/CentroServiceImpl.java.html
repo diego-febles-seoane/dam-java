@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CentroServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">centro-hibrido-xml-json</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.centro.service</a> &gt; <span class="el_source">CentroServiceImpl.java</span></div><h1>CentroServiceImpl.java</h1><pre class="source lang-java linenums">package com.ejemplo.centro.service;
+
+import com.ejemplo.centro.model.Evaluacion;
+import com.ejemplo.centro.model.Incidencia;
+import com.ejemplo.centro.model.Modulo;
+import com.ejemplo.centro.model.Profesor;
+import com.ejemplo.centro.repository.CentroXmlRepository;
+import com.ejemplo.centro.repository.EstadoJsonRepository;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
+
+public class CentroServiceImpl implements CentroService {
+
+    private final CentroXmlRepository xmlRepository;
+    private final EstadoJsonRepository jsonRepository;
+
+<span class="fc" id="L18">    public CentroServiceImpl(CentroXmlRepository xmlRepository, EstadoJsonRepository jsonRepository) {</span>
+<span class="fc" id="L19">        this.xmlRepository = Objects.requireNonNull(xmlRepository);</span>
+<span class="fc" id="L20">        this.jsonRepository = Objects.requireNonNull(jsonRepository);</span>
+<span class="fc" id="L21">    }</span>
+
+    @Override
+    public Profesor buscarProfesor(String profesorId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L26">        throw new UnsupportedOperationException(&quot;Unimplemented method 'buscarProfesor'&quot;);</span>
+    }
+
+    @Override
+    public Modulo buscarModulo(String moduloId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L32">        throw new UnsupportedOperationException(&quot;Unimplemented method 'buscarModulo'&quot;);</span>
+    }
+
+    @Override
+    public List&lt;Modulo&gt; listarModulosDeProfesor(String profesorId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L38">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarModulosDeProfesor'&quot;);</span>
+    }
+
+    @Override
+    public Evaluacion registrarEvaluacion(String alumno, String moduloId, double nota) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L44">        throw new UnsupportedOperationException(&quot;Unimplemented method 'registrarEvaluacion'&quot;);</span>
+    }
+
+    @Override
+    public List&lt;Evaluacion&gt; listarEvaluacionesDeModulo(String moduloId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L50">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarEvaluacionesDeModulo'&quot;);</span>
+    }
+
+    @Override
+    public double calcularMediaDeModulo(String moduloId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L56">        throw new UnsupportedOperationException(&quot;Unimplemented method 'calcularMediaDeModulo'&quot;);</span>
+    }
+
+    @Override
+    public double calcularMediaDeProfesor(String profesorId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L62">        throw new UnsupportedOperationException(&quot;Unimplemented method 'calcularMediaDeProfesor'&quot;);</span>
+    }
+
+    @Override
+    public Incidencia registrarIncidencia(String profesorId, String descripcion, String fecha) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L68">        throw new UnsupportedOperationException(&quot;Unimplemented method 'registrarIncidencia'&quot;);</span>
+    }
+
+    @Override
+    public List&lt;Incidencia&gt; listarIncidenciasDeProfesor(String profesorId) {
+        // TODO Auto-generated method stub
+<span class="fc" id="L74">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarIncidenciasDeProfesor'&quot;);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

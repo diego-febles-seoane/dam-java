@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+centro-hibrido-xml-json,com.ejemplo.centro.util,XmlManager,38,28,6,2,7,8,5,2,1,2
+centro-hibrido-xml-json,com.ejemplo.centro.util,JsonManager,23,43,4,4,6,10,4,3,0,3
+centro-hibrido-xml-json,com.ejemplo.centro.repository,EstadoJsonRepositoryImpl,0,46,0,0,0,12,0,8,0,8
+centro-hibrido-xml-json,com.ejemplo.centro.repository,CentroXmlRepositoryImpl,0,36,0,0,0,10,0,6,0,6
+centro-hibrido-xml-json,com.ejemplo.centro.model,CentroData,21,25,0,0,6,8,3,3,3,3
+centro-hibrido-xml-json,com.ejemplo.centro.model,Modulo,29,36,4,0,4,16,4,8,2,8
+centro-hibrido-xml-json,com.ejemplo.centro.model,Incidencia,55,36,10,0,6,16,7,8,2,8
+centro-hibrido-xml-json,com.ejemplo.centro.model,Evaluacion,18,62,3,5,1,19,4,10,1,9
+centro-hibrido-xml-json,com.ejemplo.centro.model,Profesor,29,36,4,0,4,16,4,8,2,8
+centro-hibrido-xml-json,com.ejemplo.centro.model,EstadoCentro,0,46,0,0,0,14,0,6,0,6
+centro-hibrido-xml-json,com.ejemplo.centro.service,CentroServiceImpl,0,58,0,0,0,13,0,10,0,10
+centro-hibrido-xml-json,com.ejemplo.centro,Main,541,0,34,0,155,0,42,0,20,0

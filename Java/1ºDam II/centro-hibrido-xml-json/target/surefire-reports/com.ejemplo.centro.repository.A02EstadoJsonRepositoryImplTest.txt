@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! -- in com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveSeisEvaluacionesInicialesTest -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllEvaluaciones'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllEvaluaciones(EstadoJsonRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveSeisEvaluacionesInicialesTest(A02EstadoJsonRepositoryImplTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveCuatroIncidenciasInicialesTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllIncidencias'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllIncidencias(EstadoJsonRepositoryImpl.java:52)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveCuatroIncidenciasInicialesTest(A02EstadoJsonRepositoryImplTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaEvaluacionTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaEvaluacionTest(A02EstadoJsonRepositoryImplTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonSobrescribeEvaluacionDuplicadaPorAlumnoYModuloTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonSobrescribeEvaluacionDuplicadaPorAlumnoYModuloTest(A02EstadoJsonRepositoryImplTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraEvaluacionesPorModuloTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findEvaluacionesByModuloId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findEvaluacionesByModuloId(EstadoJsonRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraEvaluacionesPorModuloTest(A02EstadoJsonRepositoryImplTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayEvaluacionesDelModuloTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findEvaluacionesByModuloId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findEvaluacionesByModuloId(EstadoJsonRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayEvaluacionesDelModuloTest(A02EstadoJsonRepositoryImplTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaIncidenciaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'saveIncidencia'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveIncidencia(EstadoJsonRepositoryImpl.java:46)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaIncidenciaTest(A02EstadoJsonRepositoryImplTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraIncidenciasPorProfesorTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findIncidenciasByProfesorId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findIncidenciasByProfesorId(EstadoJsonRepositoryImpl.java:58)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraIncidenciasPorProfesorTest(A02EstadoJsonRepositoryImplTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayIncidenciasDelProfesorTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findIncidenciasByProfesorId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findIncidenciasByProfesorId(EstadoJsonRepositoryImpl.java:58)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayIncidenciasDelProfesorTest(A02EstadoJsonRepositoryImplTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllEvaluacionesDevuelveCopiaDefensivaTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllEvaluaciones'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllEvaluaciones(EstadoJsonRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllEvaluacionesDevuelveCopiaDefensivaTest(A02EstadoJsonRepositoryImplTest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllIncidenciasDevuelveCopiaDefensivaTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllIncidencias'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllIncidencias(EstadoJsonRepositoryImpl.java:52)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllIncidenciasDevuelveCopiaDefensivaTest(A02EstadoJsonRepositoryImplTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonPersisteCambiosEntreLecturasTest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonPersisteCambiosEntreLecturasTest(A02EstadoJsonRepositoryImplTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

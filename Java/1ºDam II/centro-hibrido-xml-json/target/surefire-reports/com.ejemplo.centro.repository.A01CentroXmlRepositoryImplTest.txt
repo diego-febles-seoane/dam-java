@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.266 s <<< FAILURE! -- in com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlDevuelveTresProfesoresInicialesTest -- Time elapsed: 0.226 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllProfesores'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findAllProfesores(CentroXmlRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlDevuelveTresProfesoresInicialesTest(A01CentroXmlRepositoryImplTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlDevuelveCuatroModulosInicialesTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllModulos'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findAllModulos(CentroXmlRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlDevuelveCuatroModulosInicialesTest(A01CentroXmlRepositoryImplTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlRecuperaProfesorExistentePorIdTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findProfesorById'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findProfesorById(CentroXmlRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlRecuperaProfesorExistentePorIdTest(A01CentroXmlRepositoryImplTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlNoRecuperaProfesorInexistentePorIdTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findProfesorById'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findProfesorById(CentroXmlRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlNoRecuperaProfesorInexistentePorIdTest(A01CentroXmlRepositoryImplTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlRecuperaModuloExistentePorIdTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findModuloById'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findModuloById(CentroXmlRepositoryImpl.java:46)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlRecuperaModuloExistentePorIdTest(A01CentroXmlRepositoryImplTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlNoRecuperaModuloInexistentePorIdTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findModuloById'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findModuloById(CentroXmlRepositoryImpl.java:46)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlNoRecuperaModuloInexistentePorIdTest(A01CentroXmlRepositoryImplTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlFindAllProfesoresDevuelveCopiaDefensivaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllProfesores'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findAllProfesores(CentroXmlRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlFindAllProfesoresDevuelveCopiaDefensivaTest(A01CentroXmlRepositoryImplTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlFindAllModulosDevuelveCopiaDefensivaTest -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findAllModulos'
+	at com.ejemplo.centro.repository.CentroXmlRepositoryImpl.findAllModulos(CentroXmlRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A01CentroXmlRepositoryImplTest.xmlFindAllModulosDevuelveCopiaDefensivaTest(A01CentroXmlRepositoryImplTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

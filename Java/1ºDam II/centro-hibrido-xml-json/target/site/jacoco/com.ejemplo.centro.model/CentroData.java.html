@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CentroData.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">centro-hibrido-xml-json</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.centro.model</a> &gt; <span class="el_source">CentroData.java</span></div><h1>CentroData.java</h1><pre class="source lang-java linenums">package com.ejemplo.centro.model;
+
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+import java.util.ArrayList;
+import java.util.List;
+
+//@JacksonXmlRootElement(localName = &quot;centro&quot;)
+public class CentroData {
+
+    //@JacksonXmlElementWrapper(localName = &quot;profesores&quot;)
+    //@JacksonXmlProperty(localName = &quot;profesor&quot;)
+<span class="pc" id="L14">    private List&lt;Profesor&gt; profesores = new ArrayList&lt;&gt;();</span>
+
+    //@JacksonXmlElementWrapper(localName = &quot;modulos&quot;)
+    //@JacksonXmlProperty(localName = &quot;modulo&quot;)
+<span class="pc" id="L18">    private List&lt;Modulo&gt; modulos = new ArrayList&lt;&gt;();</span>
+
+<span class="nc" id="L20">    public CentroData() {</span>
+<span class="nc" id="L21">    }</span>
+
+<span class="fc" id="L23">    public CentroData(List&lt;Profesor&gt; profesores, List&lt;Modulo&gt; modulos) {</span>
+<span class="fc" id="L24">        this.profesores = profesores;</span>
+<span class="fc" id="L25">        this.modulos = modulos;</span>
+<span class="fc" id="L26">    }</span>
+
+    public List&lt;Profesor&gt; getProfesores() {
+<span class="fc" id="L29">        return profesores;</span>
+    }
+
+    public void setProfesores(List&lt;Profesor&gt; profesores) {
+<span class="nc" id="L33">        this.profesores = profesores;</span>
+<span class="nc" id="L34">    }</span>
+
+    public List&lt;Modulo&gt; getModulos() {
+<span class="fc" id="L37">        return modulos;</span>
+    }
+
+    public void setModulos(List&lt;Modulo&gt; modulos) {
+<span class="nc" id="L41">        this.modulos = modulos;</span>
+<span class="nc" id="L42">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

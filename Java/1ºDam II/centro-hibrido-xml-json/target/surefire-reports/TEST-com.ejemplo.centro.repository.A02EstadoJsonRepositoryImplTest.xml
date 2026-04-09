@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.033" tests="12" errors="12" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/test-classes:/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/classes:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.17.2/jackson-dataformat-xml-2.17.2.jar:/Users/jpexposito/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.7.0/woodstox-core-6.7.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Atlantic/Canary"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/surefire/surefirebooter-20260409192334185_3.jar /Users/jpexposito/Downloads/centro-hibrido-xml-json/target/surefire 2026-04-09T19-23-34_151-jvmRun1 surefire-20260409192334185_1tmp surefire_0-20260409192334185_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/test-classes:/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/classes:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.17.2/jackson-dataformat-xml-2.17.2.jar:/Users/jpexposito/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.jar:/Users/jpexposito/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.7.0/woodstox-core-6.7.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jpexposito"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json/target/surefire/surefirebooter-20260409192334185_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.17+0"/>
+    <property name="user.name" value="jpexposito"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jpexposito/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/q5/g2wxn8j93dd20yscy5pqcnt00000gn/T/"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="/Users/jpexposito/Downloads/centro-hibrido-xml-json"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jpexposito/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.17+0"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="jsonDevuelveSeisEvaluacionesInicialesTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.005">
+    <error message="Unimplemented method &apos;findAllEvaluaciones&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findAllEvaluaciones'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllEvaluaciones(EstadoJsonRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveSeisEvaluacionesInicialesTest(A02EstadoJsonRepositoryImplTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonDevuelveCuatroIncidenciasInicialesTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findAllIncidencias&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findAllIncidencias'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllIncidencias(EstadoJsonRepositoryImpl.java:52)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveCuatroIncidenciasInicialesTest(A02EstadoJsonRepositoryImplTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonGuardaNuevaEvaluacionTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;saveEvaluacion&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaEvaluacionTest(A02EstadoJsonRepositoryImplTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonSobrescribeEvaluacionDuplicadaPorAlumnoYModuloTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;saveEvaluacion&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonSobrescribeEvaluacionDuplicadaPorAlumnoYModuloTest(A02EstadoJsonRepositoryImplTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonFiltraEvaluacionesPorModuloTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findEvaluacionesByModuloId&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findEvaluacionesByModuloId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findEvaluacionesByModuloId(EstadoJsonRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraEvaluacionesPorModuloTest(A02EstadoJsonRepositoryImplTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonDevuelveListaVaciaSiNoHayEvaluacionesDelModuloTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findEvaluacionesByModuloId&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findEvaluacionesByModuloId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findEvaluacionesByModuloId(EstadoJsonRepositoryImpl.java:40)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayEvaluacionesDelModuloTest(A02EstadoJsonRepositoryImplTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonGuardaNuevaIncidenciaTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.003">
+    <error message="Unimplemented method &apos;saveIncidencia&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'saveIncidencia'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveIncidencia(EstadoJsonRepositoryImpl.java:46)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonGuardaNuevaIncidenciaTest(A02EstadoJsonRepositoryImplTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonFiltraIncidenciasPorProfesorTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.004">
+    <error message="Unimplemented method &apos;findIncidenciasByProfesorId&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findIncidenciasByProfesorId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findIncidenciasByProfesorId(EstadoJsonRepositoryImpl.java:58)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFiltraIncidenciasPorProfesorTest(A02EstadoJsonRepositoryImplTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonDevuelveListaVaciaSiNoHayIncidenciasDelProfesorTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findIncidenciasByProfesorId&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findIncidenciasByProfesorId'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findIncidenciasByProfesorId(EstadoJsonRepositoryImpl.java:58)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonDevuelveListaVaciaSiNoHayIncidenciasDelProfesorTest(A02EstadoJsonRepositoryImplTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonFindAllEvaluacionesDevuelveCopiaDefensivaTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findAllEvaluaciones&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findAllEvaluaciones'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllEvaluaciones(EstadoJsonRepositoryImpl.java:34)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllEvaluacionesDevuelveCopiaDefensivaTest(A02EstadoJsonRepositoryImplTest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonFindAllIncidenciasDevuelveCopiaDefensivaTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;findAllIncidencias&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'findAllIncidencias'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.findAllIncidencias(EstadoJsonRepositoryImpl.java:52)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonFindAllIncidenciasDevuelveCopiaDefensivaTest(A02EstadoJsonRepositoryImplTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="jsonPersisteCambiosEntreLecturasTest" classname="com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest" time="0.002">
+    <error message="Unimplemented method &apos;saveEvaluacion&apos;" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Unimplemented method 'saveEvaluacion'
+	at com.ejemplo.centro.repository.EstadoJsonRepositoryImpl.saveEvaluacion(EstadoJsonRepositoryImpl.java:28)
+	at com.ejemplo.centro.repository.A02EstadoJsonRepositoryImplTest.jsonPersisteCambiosEntreLecturasTest(A02EstadoJsonRepositoryImplTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+</testsuite>
