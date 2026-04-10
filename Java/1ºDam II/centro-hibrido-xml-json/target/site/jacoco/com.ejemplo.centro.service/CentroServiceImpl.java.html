@@ -15,64 +15,130 @@ public class CentroServiceImpl implements CentroService {
     private final CentroXmlRepository xmlRepository;
     private final EstadoJsonRepository jsonRepository;
 
-<span class="fc" id="L18">    public CentroServiceImpl(CentroXmlRepository xmlRepository, EstadoJsonRepository jsonRepository) {</span>
-<span class="fc" id="L19">        this.xmlRepository = Objects.requireNonNull(xmlRepository);</span>
-<span class="fc" id="L20">        this.jsonRepository = Objects.requireNonNull(jsonRepository);</span>
-<span class="fc" id="L21">    }</span>
+<span class="nc" id="L18">    public CentroServiceImpl(CentroXmlRepository xmlRepository, EstadoJsonRepository jsonRepository) {</span>
+<span class="nc" id="L19">        this.xmlRepository = Objects.requireNonNull(xmlRepository);</span>
+<span class="nc" id="L20">        this.jsonRepository = Objects.requireNonNull(jsonRepository);</span>
+<span class="nc" id="L21">    }</span>
 
     @Override
     public Profesor buscarProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L26">        throw new UnsupportedOperationException(&quot;Unimplemented method 'buscarProfesor'&quot;);</span>
+<span class="nc bnc" id="L25" title="All 2 branches missed.">        if (profesorId == null) {</span>
+<span class="nc" id="L26">            return null;</span>
+        }
+<span class="nc" id="L28">        String id = profesorId.trim();</span>
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        if (id.isBlank()) {</span>
+<span class="nc" id="L30">            return null;</span>
+        }
+<span class="nc" id="L32">        return xmlRepository.findProfesorById(id);</span>
     }
 
     @Override
     public Modulo buscarModulo(String moduloId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L32">        throw new UnsupportedOperationException(&quot;Unimplemented method 'buscarModulo'&quot;);</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        if (moduloId == null) {</span>
+<span class="nc" id="L38">            return null;</span>
+        }
+<span class="nc" id="L40">        String id = moduloId.trim();</span>
+<span class="nc bnc" id="L41" title="All 2 branches missed.">        if (id.isBlank()) {</span>
+<span class="nc" id="L42">            return null;</span>
+        }
+<span class="nc" id="L44">        return xmlRepository.findModuloById(id);</span>
     }
 
     @Override
     public List&lt;Modulo&gt; listarModulosDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L38">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarModulosDeProfesor'&quot;);</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">        if (profesorId == null) {</span>
+<span class="nc" id="L50">            return List.of();</span>
+        }
+<span class="nc" id="L52">        String id = profesorId.trim();</span>
+<span class="nc bnc" id="L53" title="All 2 branches missed.">        if (id.isBlank()) {</span>
+<span class="nc" id="L54">            return List.of();</span>
+        }
+<span class="nc" id="L56">        return xmlRepository.findAllModulos().stream()</span>
+<span class="nc" id="L57">                .filter(m -&gt; m.getProfesorId().equals(id))</span>
+<span class="nc" id="L58">                .collect(Collectors.toList());</span>
     }
 
     @Override
     public Evaluacion registrarEvaluacion(String alumno, String moduloId, double nota) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L44">        throw new UnsupportedOperationException(&quot;Unimplemented method 'registrarEvaluacion'&quot;);</span>
+<span class="nc bnc" id="L63" title="All 4 branches missed.">        if (alumno == null || moduloId == null) {</span>
+<span class="nc" id="L64">            return null;</span>
+        }
+<span class="nc" id="L66">        String alumnoTrimmed = alumno.trim();</span>
+<span class="nc" id="L67">        String moduloIdTrimmed = moduloId.trim();</span>
+<span class="nc bnc" id="L68" title="All 4 branches missed.">        if (alumnoTrimmed.isBlank() || moduloIdTrimmed.isBlank()) {</span>
+<span class="nc" id="L69">            return null;</span>
+        }
+<span class="nc bnc" id="L71" title="All 4 branches missed.">        if (nota &lt; 0.0 || nota &gt; 10.0) {</span>
+<span class="nc" id="L72">            return null;</span>
+        }
+<span class="nc" id="L74">        Modulo modulo = buscarModulo(moduloIdTrimmed);</span>
+<span class="nc bnc" id="L75" title="All 2 branches missed.">        if (modulo == null) {</span>
+<span class="nc" id="L76">            return null;</span>
+        }
+<span class="nc" id="L78">        Evaluacion evaluacion = new Evaluacion(alumnoTrimmed, moduloIdTrimmed, nota);</span>
+<span class="nc" id="L79">        jsonRepository.saveEvaluacion(evaluacion);</span>
+<span class="nc" id="L80">        return evaluacion;</span>
     }
 
     @Override
     public List&lt;Evaluacion&gt; listarEvaluacionesDeModulo(String moduloId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L50">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarEvaluacionesDeModulo'&quot;);</span>
+<span class="nc" id="L85">        return jsonRepository.findEvaluacionesByModuloId(moduloId);</span>
     }
 
     @Override
     public double calcularMediaDeModulo(String moduloId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L56">        throw new UnsupportedOperationException(&quot;Unimplemented method 'calcularMediaDeModulo'&quot;);</span>
+<span class="nc" id="L90">        List&lt;Evaluacion&gt; evaluaciones = jsonRepository.findEvaluacionesByModuloId(moduloId);</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">        if (evaluaciones.isEmpty()) {</span>
+<span class="nc" id="L92">            return 0.0;</span>
+        }
+<span class="nc" id="L94">        return evaluaciones.stream()</span>
+<span class="nc" id="L95">                .mapToDouble(Evaluacion::getNota)</span>
+<span class="nc" id="L96">                .average()</span>
+<span class="nc" id="L97">                .orElse(0.0);</span>
     }
 
     @Override
     public double calcularMediaDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L62">        throw new UnsupportedOperationException(&quot;Unimplemented method 'calcularMediaDeProfesor'&quot;);</span>
+<span class="nc" id="L102">        List&lt;Modulo&gt; modulos = listarModulosDeProfesor(profesorId);</span>
+<span class="nc" id="L103">        List&lt;String&gt; moduloIds = modulos.stream()</span>
+<span class="nc" id="L104">                .map(Modulo::getId)</span>
+<span class="nc" id="L105">                .collect(Collectors.toList());</span>
+<span class="nc" id="L106">        List&lt;Evaluacion&gt; evaluaciones = jsonRepository.findAllEvaluaciones().stream()</span>
+<span class="nc" id="L107">                .filter(e -&gt; moduloIds.contains(e.getModuloId()))</span>
+<span class="nc" id="L108">                .collect(Collectors.toList());</span>
+<span class="nc bnc" id="L109" title="All 2 branches missed.">        if (evaluaciones.isEmpty()) {</span>
+<span class="nc" id="L110">            return 0.0;</span>
+        }
+<span class="nc" id="L112">        return evaluaciones.stream()</span>
+<span class="nc" id="L113">                .mapToDouble(Evaluacion::getNota)</span>
+<span class="nc" id="L114">                .average()</span>
+<span class="nc" id="L115">                .orElse(0.0);</span>
     }
 
     @Override
     public Incidencia registrarIncidencia(String profesorId, String descripcion, String fecha) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L68">        throw new UnsupportedOperationException(&quot;Unimplemented method 'registrarIncidencia'&quot;);</span>
+<span class="nc bnc" id="L120" title="All 2 branches missed.">        if (profesorId == null) {</span>
+<span class="nc" id="L121">            return null;</span>
+        }
+<span class="nc" id="L123">        String id = profesorId.trim();</span>
+<span class="nc bnc" id="L124" title="All 4 branches missed.">        if (id.isBlank() || buscarProfesor(id) == null) {</span>
+<span class="nc" id="L125">            return null;</span>
+        }
+<span class="nc" id="L127">        Incidencia incidencia = new Incidencia(id, descripcion, fecha);</span>
+<span class="nc" id="L128">        jsonRepository.saveIncidencia(incidencia);</span>
+<span class="nc" id="L129">        return incidencia;</span>
     }
 
     @Override
     public List&lt;Incidencia&gt; listarIncidenciasDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L74">        throw new UnsupportedOperationException(&quot;Unimplemented method 'listarIncidenciasDeProfesor'&quot;);</span>
+<span class="nc bnc" id="L134" title="All 2 branches missed.">        if (profesorId == null) {</span>
+<span class="nc" id="L135">            return List.of();</span>
+        }
+<span class="nc" id="L137">        String id = profesorId.trim();</span>
+<span class="nc bnc" id="L138" title="All 2 branches missed.">        if (id.isBlank()) {</span>
+<span class="nc" id="L139">            return List.of();</span>
+        }
+<span class="nc" id="L141">        return jsonRepository.findIncidenciasByProfesorId(id);</span>
     }
-
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

@@ -12,40 +12,42 @@ import java.util.Optional;
 public class CentroXmlRepositoryImpl implements CentroXmlRepository {
     private final Path xmlPath;
     private final XmlManager xmlManager;
+    private CentroData centroData;
 
     public CentroXmlRepositoryImpl(Path xmlPath) {
-<span class="fc" id="L17">        this(xmlPath, new XmlManager());</span>
-<span class="fc" id="L18">    }</span>
+<span class="nc" id="L18">        this(xmlPath, new XmlManager());</span>
+<span class="nc" id="L19">    }</span>
 
-<span class="fc" id="L20">    public CentroXmlRepositoryImpl(Path xmlPath, XmlManager xmlManager) {</span>
-<span class="fc" id="L21">        this.xmlPath = xmlPath;</span>
-<span class="fc" id="L22">        this.xmlManager = xmlManager;</span>
-<span class="fc" id="L23">    }</span>
+<span class="nc" id="L21">    public CentroXmlRepositoryImpl(Path xmlPath, XmlManager xmlManager) {</span>
+<span class="nc" id="L22">        this.xmlPath = xmlPath;</span>
+<span class="nc" id="L23">        this.xmlManager = xmlManager;</span>
+<span class="nc" id="L24">        this.centroData = xmlManager.read(xmlPath);</span>
+<span class="nc" id="L25">    }</span>
 
     @Override
     public List&lt;Profesor&gt; findAllProfesores() {
-        // TODO Auto-generated method stub
-<span class="fc" id="L28">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findAllProfesores'&quot;);</span>
+<span class="nc" id="L29">        return new ArrayList&lt;&gt;(centroData.getProfesores());</span>
     }
 
     @Override
     public List&lt;Modulo&gt; findAllModulos() {
-        // TODO Auto-generated method stub
-<span class="fc" id="L34">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findAllModulos'&quot;);</span>
+<span class="nc" id="L34">        return new ArrayList&lt;&gt;(centroData.getModulos());</span>
     }
 
     @Override
     public Profesor findProfesorById(String id) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L40">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findProfesorById'&quot;);</span>
+<span class="nc" id="L39">        return centroData.getProfesores().stream()</span>
+<span class="nc" id="L40">                .filter(p -&gt; p.getId().equals(id))</span>
+<span class="nc" id="L41">                .findFirst()</span>
+<span class="nc" id="L42">                .orElse(null);</span>
     }
 
     @Override
     public Modulo findModuloById(String id) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L46">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findModuloById'&quot;);</span>
+<span class="nc" id="L47">        return centroData.getModulos().stream()</span>
+<span class="nc" id="L48">                .filter(m -&gt; m.getId().equals(id))</span>
+<span class="nc" id="L49">                .findFirst()</span>
+<span class="nc" id="L50">                .orElse(null);</span>
     }
-
-    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

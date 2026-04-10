@@ -12,6 +12,7 @@ import java.util.Optional;
 public class CentroXmlRepositoryImpl implements CentroXmlRepository {
     private final Path xmlPath;
     private final XmlManager xmlManager;
+    private CentroData centroData;
 
     public CentroXmlRepositoryImpl(Path xmlPath) {
         this(xmlPath, new XmlManager());
@@ -20,31 +21,32 @@ public class CentroXmlRepositoryImpl implements CentroXmlRepository {
     public CentroXmlRepositoryImpl(Path xmlPath, XmlManager xmlManager) {
         this.xmlPath = xmlPath;
         this.xmlManager = xmlManager;
+        this.centroData = xmlManager.read(xmlPath);
     }
 
     @Override
     public List<Profesor> findAllProfesores() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAllProfesores'");
+        return new ArrayList<>(centroData.getProfesores());
     }
 
     @Override
     public List<Modulo> findAllModulos() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAllModulos'");
+        return new ArrayList<>(centroData.getModulos());
     }
 
     @Override
     public Profesor findProfesorById(String id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findProfesorById'");
+        return centroData.getProfesores().stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
     public Modulo findModuloById(String id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findModuloById'");
+        return centroData.getModulos().stream()
+                .filter(m -> m.getId().equals(id))
+                .findFirst()
+                .orElse(null);
     }
-
-    
 }

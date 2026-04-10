@@ -22,56 +22,122 @@ public class CentroServiceImpl implements CentroService {
 
     @Override
     public Profesor buscarProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'buscarProfesor'");
+        if (profesorId == null) {
+            return null;
+        }
+        String id = profesorId.trim();
+        if (id.isBlank()) {
+            return null;
+        }
+        return xmlRepository.findProfesorById(id);
     }
 
     @Override
     public Modulo buscarModulo(String moduloId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'buscarModulo'");
+        if (moduloId == null) {
+            return null;
+        }
+        String id = moduloId.trim();
+        if (id.isBlank()) {
+            return null;
+        }
+        return xmlRepository.findModuloById(id);
     }
 
     @Override
     public List<Modulo> listarModulosDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'listarModulosDeProfesor'");
+        if (profesorId == null) {
+            return List.of();
+        }
+        String id = profesorId.trim();
+        if (id.isBlank()) {
+            return List.of();
+        }
+        return xmlRepository.findAllModulos().stream()
+                .filter(m -> m.getProfesorId().equals(id))
+                .collect(Collectors.toList());
     }
 
     @Override
     public Evaluacion registrarEvaluacion(String alumno, String moduloId, double nota) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'registrarEvaluacion'");
+        if (alumno == null || moduloId == null) {
+            return null;
+        }
+        String alumnoTrimmed = alumno.trim();
+        String moduloIdTrimmed = moduloId.trim();
+        if (alumnoTrimmed.isBlank() || moduloIdTrimmed.isBlank()) {
+            return null;
+        }
+        if (nota < 0.0 || nota > 10.0) {
+            return null;
+        }
+        Modulo modulo = buscarModulo(moduloIdTrimmed);
+        if (modulo == null) {
+            return null;
+        }
+        Evaluacion evaluacion = new Evaluacion(alumnoTrimmed, moduloIdTrimmed, nota);
+        jsonRepository.saveEvaluacion(evaluacion);
+        return evaluacion;
     }
 
     @Override
     public List<Evaluacion> listarEvaluacionesDeModulo(String moduloId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'listarEvaluacionesDeModulo'");
+        return jsonRepository.findEvaluacionesByModuloId(moduloId);
     }
 
     @Override
     public double calcularMediaDeModulo(String moduloId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularMediaDeModulo'");
+        List<Evaluacion> evaluaciones = jsonRepository.findEvaluacionesByModuloId(moduloId);
+        if (evaluaciones.isEmpty()) {
+            return 0.0;
+        }
+        return evaluaciones.stream()
+                .mapToDouble(Evaluacion::getNota)
+                .average()
+                .orElse(0.0);
     }
 
     @Override
     public double calcularMediaDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularMediaDeProfesor'");
+        List<Modulo> modulos = listarModulosDeProfesor(profesorId);
+        List<String> moduloIds = modulos.stream()
+                .map(Modulo::getId)
+                .collect(Collectors.toList());
+        List<Evaluacion> evaluaciones = jsonRepository.findAllEvaluaciones().stream()
+                .filter(e -> moduloIds.contains(e.getModuloId()))
+                .collect(Collectors.toList());
+        if (evaluaciones.isEmpty()) {
+            return 0.0;
+        }
+        return evaluaciones.stream()
+                .mapToDouble(Evaluacion::getNota)
+                .average()
+                .orElse(0.0);
     }
 
     @Override
     public Incidencia registrarIncidencia(String profesorId, String descripcion, String fecha) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'registrarIncidencia'");
+        if (profesorId == null) {
+            return null;
+        }
+        String id = profesorId.trim();
+        if (id.isBlank() || buscarProfesor(id) == null) {
+            return null;
+        }
+        Incidencia incidencia = new Incidencia(id, descripcion, fecha);
+        jsonRepository.saveIncidencia(incidencia);
+        return incidencia;
     }
 
     @Override
     public List<Incidencia> listarIncidenciasDeProfesor(String profesorId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'listarIncidenciasDeProfesor'");
+        if (profesorId == null) {
+            return List.of();
+        }
+        String id = profesorId.trim();
+        if (id.isBlank()) {
+            return List.of();
+        }
+        return jsonRepository.findIncidenciasByProfesorId(id);
     }
-
 }

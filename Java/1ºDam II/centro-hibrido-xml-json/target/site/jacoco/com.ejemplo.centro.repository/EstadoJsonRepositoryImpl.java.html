@@ -12,52 +12,54 @@ import java.util.stream.Collectors;
 public class EstadoJsonRepositoryImpl implements EstadoJsonRepository {
     private final Path jsonPath;
     private final JsonManager jsonManager;
+    private EstadoCentro estadoCentro;
 
     public EstadoJsonRepositoryImpl(Path jsonPath) {
-<span class="fc" id="L17">        this(jsonPath, new JsonManager());</span>
-<span class="fc" id="L18">    }</span>
+<span class="nc" id="L18">        this(jsonPath, new JsonManager());</span>
+<span class="nc" id="L19">    }</span>
 
-<span class="fc" id="L20">    public EstadoJsonRepositoryImpl(Path jsonPath, JsonManager jsonManager) {</span>
-<span class="fc" id="L21">        this.jsonPath = jsonPath;</span>
-<span class="fc" id="L22">        this.jsonManager = jsonManager;</span>
-<span class="fc" id="L23">    }</span>
+<span class="nc" id="L21">    public EstadoJsonRepositoryImpl(Path jsonPath, JsonManager jsonManager) {</span>
+<span class="nc" id="L22">        this.jsonPath = jsonPath;</span>
+<span class="nc" id="L23">        this.jsonManager = jsonManager;</span>
+<span class="nc" id="L24">        this.estadoCentro = jsonManager.read(jsonPath);</span>
+<span class="nc" id="L25">    }</span>
 
     @Override
     public void saveEvaluacion(Evaluacion evaluacion) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L28">        throw new UnsupportedOperationException(&quot;Unimplemented method 'saveEvaluacion'&quot;);</span>
-    }
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        estadoCentro.getEvaluaciones().removeIf(e -&gt; e.getModuloId().equals(evaluacion.getModuloId()) &amp;&amp;</span>
+<span class="nc bnc" id="L30" title="All 2 branches missed.">                e.getAlumno().equals(evaluacion.getAlumno()));</span>
+<span class="nc" id="L31">        estadoCentro.getEvaluaciones().add(evaluacion);</span>
+<span class="nc" id="L32">        jsonManager.write(jsonPath, estadoCentro);</span>
+<span class="nc" id="L33">    }</span>
 
     @Override
     public List&lt;Evaluacion&gt; findAllEvaluaciones() {
-        // TODO Auto-generated method stub
-<span class="fc" id="L34">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findAllEvaluaciones'&quot;);</span>
+<span class="nc" id="L37">        return new ArrayList&lt;&gt;(estadoCentro.getEvaluaciones());</span>
     }
 
     @Override
     public List&lt;Evaluacion&gt; findEvaluacionesByModuloId(String moduloId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L40">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findEvaluacionesByModuloId'&quot;);</span>
+<span class="nc" id="L42">        return estadoCentro.getEvaluaciones().stream()</span>
+<span class="nc" id="L43">                .filter(e -&gt; e.getModuloId().equals(moduloId))</span>
+<span class="nc" id="L44">                .collect(Collectors.toList());</span>
     }
 
     @Override
     public void saveIncidencia(Incidencia incidencia) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L46">        throw new UnsupportedOperationException(&quot;Unimplemented method 'saveIncidencia'&quot;);</span>
-    }
+<span class="nc" id="L49">        estadoCentro.getIncidencias().add(incidencia);</span>
+<span class="nc" id="L50">        jsonManager.write(jsonPath, estadoCentro);</span>
+<span class="nc" id="L51">    }</span>
 
     @Override
     public List&lt;Incidencia&gt; findAllIncidencias() {
-        // TODO Auto-generated method stub
-<span class="fc" id="L52">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findAllIncidencias'&quot;);</span>
+<span class="nc" id="L55">        return new ArrayList&lt;&gt;(estadoCentro.getIncidencias());</span>
     }
 
     @Override
     public List&lt;Incidencia&gt; findIncidenciasByProfesorId(String profesorId) {
-        // TODO Auto-generated method stub
-<span class="fc" id="L58">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findIncidenciasByProfesorId'&quot;);</span>
+<span class="nc" id="L60">        return estadoCentro.getIncidencias().stream()</span>
+<span class="nc" id="L61">                .filter(i -&gt; i.getProfesorId().equals(profesorId))</span>
+<span class="nc" id="L62">                .collect(Collectors.toList());</span>
     }
-
-    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

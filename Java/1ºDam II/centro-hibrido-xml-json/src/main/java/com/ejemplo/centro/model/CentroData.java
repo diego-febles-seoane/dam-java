@@ -6,15 +6,15 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
-//@JacksonXmlRootElement(localName = "centro")
+@JacksonXmlRootElement(localName = "centro")
 public class CentroData {
 
-    //@JacksonXmlElementWrapper(localName = "profesores")
-    //@JacksonXmlProperty(localName = "profesor")
+    @JacksonXmlElementWrapper(localName = "profesores")
+    @JacksonXmlProperty(localName = "profesor")
     private List<Profesor> profesores = new ArrayList<>();
 
-    //@JacksonXmlElementWrapper(localName = "modulos")
-    //@JacksonXmlProperty(localName = "modulo")
+    @JacksonXmlElementWrapper(localName = "modulos")
+    @JacksonXmlProperty(localName = "modulo")
     private List<Modulo> modulos = new ArrayList<>();
 
     public CentroData() {

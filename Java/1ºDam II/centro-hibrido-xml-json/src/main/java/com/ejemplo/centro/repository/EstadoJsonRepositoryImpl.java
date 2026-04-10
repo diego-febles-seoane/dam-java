@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 public class EstadoJsonRepositoryImpl implements EstadoJsonRepository {
     private final Path jsonPath;
     private final JsonManager jsonManager;
+    private EstadoCentro estadoCentro;
 
     public EstadoJsonRepositoryImpl(Path jsonPath) {
         this(jsonPath, new JsonManager());
@@ -20,43 +21,44 @@ public class EstadoJsonRepositoryImpl implements EstadoJsonRepository {
     public EstadoJsonRepositoryImpl(Path jsonPath, JsonManager jsonManager) {
         this.jsonPath = jsonPath;
         this.jsonManager = jsonManager;
+        this.estadoCentro = jsonManager.read(jsonPath);
     }
 
     @Override
     public void saveEvaluacion(Evaluacion evaluacion) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'saveEvaluacion'");
+        estadoCentro.getEvaluaciones().removeIf(e -> e.getModuloId().equals(evaluacion.getModuloId()) &&
+                e.getAlumno().equals(evaluacion.getAlumno()));
+        estadoCentro.getEvaluaciones().add(evaluacion);
+        jsonManager.write(jsonPath, estadoCentro);
     }
 
     @Override
     public List<Evaluacion> findAllEvaluaciones() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAllEvaluaciones'");
+        return new ArrayList<>(estadoCentro.getEvaluaciones());
     }
 
     @Override
     public List<Evaluacion> findEvaluacionesByModuloId(String moduloId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findEvaluacionesByModuloId'");
+        return estadoCentro.getEvaluaciones().stream()
+                .filter(e -> e.getModuloId().equals(moduloId))
+                .collect(Collectors.toList());
     }
 
     @Override
     public void saveIncidencia(Incidencia incidencia) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'saveIncidencia'");
+        estadoCentro.getIncidencias().add(incidencia);
+        jsonManager.write(jsonPath, estadoCentro);
     }
 
     @Override
     public List<Incidencia> findAllIncidencias() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findAllIncidencias'");
+        return new ArrayList<>(estadoCentro.getIncidencias());
     }
 
     @Override
     public List<Incidencia> findIncidenciasByProfesorId(String profesorId) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findIncidenciasByProfesorId'");
+        return estadoCentro.getIncidencias().stream()
+                .filter(i -> i.getProfesorId().equals(profesorId))
+                .collect(Collectors.toList());
     }
-
-    
 }

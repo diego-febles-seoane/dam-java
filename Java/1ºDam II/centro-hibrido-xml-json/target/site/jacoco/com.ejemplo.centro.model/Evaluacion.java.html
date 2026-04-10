@@ -7,44 +7,44 @@ public class Evaluacion {
     private String moduloId;
     private double nota;
 
-<span class="fc" id="L10">    public Evaluacion() {</span>
-<span class="fc" id="L11">    }</span>
+<span class="nc" id="L10">    public Evaluacion() {</span>
+<span class="nc" id="L11">    }</span>
 
-<span class="fc" id="L13">    public Evaluacion(String alumno, String moduloId, double nota) {</span>
-<span class="fc" id="L14">        this.alumno = alumno;</span>
-<span class="fc" id="L15">        this.moduloId = moduloId;</span>
-<span class="fc" id="L16">        this.nota = nota;</span>
-<span class="fc" id="L17">    }</span>
+<span class="nc" id="L13">    public Evaluacion(String alumno, String moduloId, double nota) {</span>
+<span class="nc" id="L14">        this.alumno = alumno;</span>
+<span class="nc" id="L15">        this.moduloId = moduloId;</span>
+<span class="nc" id="L16">        this.nota = nota;</span>
+<span class="nc" id="L17">    }</span>
 
     public String getAlumno() {
-<span class="fc" id="L20">        return alumno;</span>
+<span class="nc" id="L20">        return alumno;</span>
     }
 
     public void setAlumno(String alumno) {
-<span class="fc" id="L24">        this.alumno = alumno;</span>
-<span class="fc" id="L25">    }</span>
+<span class="nc" id="L24">        this.alumno = alumno;</span>
+<span class="nc" id="L25">    }</span>
 
     public String getModuloId() {
-<span class="fc" id="L28">        return moduloId;</span>
+<span class="nc" id="L28">        return moduloId;</span>
     }
 
     public void setModuloId(String moduloId) {
-<span class="fc" id="L32">        this.moduloId = moduloId;</span>
-<span class="fc" id="L33">    }</span>
+<span class="nc" id="L32">        this.moduloId = moduloId;</span>
+<span class="nc" id="L33">    }</span>
 
     public double getNota() {
-<span class="fc" id="L36">        return nota;</span>
+<span class="nc" id="L36">        return nota;</span>
     }
 
     public void setNota(double nota) {
-<span class="fc" id="L40">        this.nota = nota;</span>
-<span class="fc" id="L41">    }</span>
+<span class="nc" id="L40">        this.nota = nota;</span>
+<span class="nc" id="L41">    }</span>
 
     @Override
     public boolean equals(Object o) {
-<span class="pc bpc" id="L45" title="1 of 2 branches missed.">        if (this == o) return true;</span>
-<span class="pc bpc" id="L46" title="1 of 2 branches missed.">        if (!(o instanceof Evaluacion that)) return false;</span>
-<span class="pc bpc" id="L47" title="1 of 4 branches missed.">        return Objects.equals(alumno, that.alumno) &amp;&amp; Objects.equals(moduloId, that.moduloId);</span>
+<span class="nc bnc" id="L45" title="All 2 branches missed.">        if (this == o) return true;</span>
+<span class="nc bnc" id="L46" title="All 2 branches missed.">        if (!(o instanceof Evaluacion that)) return false;</span>
+<span class="nc bnc" id="L47" title="All 4 branches missed.">        return Objects.equals(alumno, that.alumno) &amp;&amp; Objects.equals(moduloId, that.moduloId);</span>
     }
 
     @Override

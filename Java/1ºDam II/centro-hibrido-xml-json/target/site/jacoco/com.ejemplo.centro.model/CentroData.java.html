@@ -6,27 +6,27 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
-//@JacksonXmlRootElement(localName = &quot;centro&quot;)
+@JacksonXmlRootElement(localName = &quot;centro&quot;)
 public class CentroData {
 
-    //@JacksonXmlElementWrapper(localName = &quot;profesores&quot;)
-    //@JacksonXmlProperty(localName = &quot;profesor&quot;)
-<span class="pc" id="L14">    private List&lt;Profesor&gt; profesores = new ArrayList&lt;&gt;();</span>
+    @JacksonXmlElementWrapper(localName = &quot;profesores&quot;)
+    @JacksonXmlProperty(localName = &quot;profesor&quot;)
+<span class="nc" id="L14">    private List&lt;Profesor&gt; profesores = new ArrayList&lt;&gt;();</span>
 
-    //@JacksonXmlElementWrapper(localName = &quot;modulos&quot;)
-    //@JacksonXmlProperty(localName = &quot;modulo&quot;)
-<span class="pc" id="L18">    private List&lt;Modulo&gt; modulos = new ArrayList&lt;&gt;();</span>
+    @JacksonXmlElementWrapper(localName = &quot;modulos&quot;)
+    @JacksonXmlProperty(localName = &quot;modulo&quot;)
+<span class="nc" id="L18">    private List&lt;Modulo&gt; modulos = new ArrayList&lt;&gt;();</span>
 
 <span class="nc" id="L20">    public CentroData() {</span>
 <span class="nc" id="L21">    }</span>
 
-<span class="fc" id="L23">    public CentroData(List&lt;Profesor&gt; profesores, List&lt;Modulo&gt; modulos) {</span>
-<span class="fc" id="L24">        this.profesores = profesores;</span>
-<span class="fc" id="L25">        this.modulos = modulos;</span>
-<span class="fc" id="L26">    }</span>
+<span class="nc" id="L23">    public CentroData(List&lt;Profesor&gt; profesores, List&lt;Modulo&gt; modulos) {</span>
+<span class="nc" id="L24">        this.profesores = profesores;</span>
+<span class="nc" id="L25">        this.modulos = modulos;</span>
+<span class="nc" id="L26">    }</span>
 
     public List&lt;Profesor&gt; getProfesores() {
-<span class="fc" id="L29">        return profesores;</span>
+<span class="nc" id="L29">        return profesores;</span>
     }
 
     public void setProfesores(List&lt;Profesor&gt; profesores) {
@@ -34,7 +34,7 @@ public class CentroData {
 <span class="nc" id="L34">    }</span>
 
     public List&lt;Modulo&gt; getModulos() {
-<span class="fc" id="L37">        return modulos;</span>
+<span class="nc" id="L37">        return modulos;</span>
     }
 
     public void setModulos(List&lt;Modulo&gt; modulos) {
