@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.service.validation.CompraServiceRegexValidationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! -- in com.ejemplo.service.validation.CompraServiceRegexValidationTest
+com.ejemplo.service.validation.CompraServiceRegexValidationTest.findByProveedorConCifIncorrectoFailTest -- Time elapsed: 0.034 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findByProveedor'
+	at com.ejemplo.service.CompraService.findByProveedor(CompraService.java:41)
+	at com.ejemplo.service.validation.CompraServiceRegexValidationTest.findByProveedorConCifIncorrectoFailTest(CompraServiceRegexValidationTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.service.validation.CompraServiceRegexValidationTest.findByNumeroFacturaConFormatoIncorrectoFailTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'findByNumeroFactura'
+	at com.ejemplo.service.CompraService.findByNumeroFactura(CompraService.java:46)
+	at com.ejemplo.service.validation.CompraServiceRegexValidationTest.findByNumeroFacturaConFormatoIncorrectoFailTest(CompraServiceRegexValidationTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.service.validation.CompraServiceRegexValidationTest.createCompraConFacturaIncorrectaFailTest -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'create'
+	at com.ejemplo.service.CompraService.create(CompraService.java:16)
+	at com.ejemplo.service.validation.CompraServiceRegexValidationTest.createCompraConFacturaIncorrectaFailTest(CompraServiceRegexValidationTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ejemplo.service.validation.CompraServiceRegexValidationTest.createCompraConFechaIncorrectaFailTest -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Unimplemented method 'create'
+	at com.ejemplo.service.CompraService.create(CompraService.java:16)
+	at com.ejemplo.service.validation.CompraServiceRegexValidationTest.createCompraConFechaIncorrectaFailTest(CompraServiceRegexValidationTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

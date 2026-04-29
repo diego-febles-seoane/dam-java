@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SocioService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gimnasio-socio-clase-sqlite-solucion</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.service</a> &gt; <span class="el_source">SocioService.java</span></div><h1>SocioService.java</h1><pre class="source lang-java linenums">package com.ejemplo.service;
+
+import com.ejemplo.model.Clase;
+import com.ejemplo.model.Socio;
+import com.ejemplo.model.SocioReserva;
+import com.ejemplo.repository.ISocioRepository;
+import com.ejemplo.repository.sqlite.SocioSqliteRepository;
+import java.util.List;
+
+public class SocioService implements ISocioService {
+
+    private final ISocioRepository repository;
+
+<span class="fc" id="L14">    public SocioService() {</span>
+<span class="fc" id="L15">        this.repository = new SocioSqliteRepository();</span>
+<span class="fc" id="L16">    }</span>
+
+    @Override
+    public boolean create(Socio socio) {
+<span class="fc bfc" id="L20" title="All 2 branches covered.">        if (!validar(socio)) {</span>
+<span class="fc" id="L21">            return false;</span>
+        }
+<span class="fc" id="L23">        return repository.create(socio);</span>
+    }
+
+    private boolean validar(Socio socio) {
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        return socio != null;</span>
+    }
+
+    @Override
+    public Socio findById(Integer id) {
+<span class="nc" id="L32">        return repository.findById(id);</span>
+    }
+
+    @Override
+    public List&lt;Socio&gt; findAll() {
+<span class="nc" id="L37">        return repository.findAll();</span>
+    }
+
+    @Override
+    public boolean update(Socio socio) {
+<span class="pc bpc" id="L42" title="1 of 2 branches missed.">        if (!validar(socio)) {</span>
+<span class="fc" id="L43">            return false;</span>
+        }
+<span class="nc" id="L45">        return repository.update(socio);</span>
+    }
+
+    @Override
+    public boolean deleteById(Integer id) {
+<span class="nc" id="L50">        return repository.deleteById(id);</span>
+    }
+
+    @Override
+    public List&lt;Socio&gt; findActivos() {
+<span class="nc" id="L55">        return repository.findActivos();</span>
+    }
+
+    @Override
+    public List&lt;Socio&gt; findByPlan(String plan) {
+<span class="nc" id="L60">        return repository.findByPlan(plan);</span>
+    }
+
+    @Override
+    public List&lt;SocioReserva&gt; findSociosConReservas() {
+<span class="nc" id="L65">        return repository.findSociosConReservas();</span>
+    }
+
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

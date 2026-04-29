@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ClaseService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gimnasio-socio-clase-sqlite-solucion</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.service</a> &gt; <span class="el_source">ClaseService.java</span></div><h1>ClaseService.java</h1><pre class="source lang-java linenums">package com.ejemplo.service;
+
+import com.ejemplo.model.Clase;
+import com.ejemplo.model.ClaseMonitor;
+import com.ejemplo.model.ClaseReservaSocio;
+import com.ejemplo.repository.IClaseRepository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+public class ClaseService implements IClaseService {
+
+    private final IClaseRepository repository;
+
+<span class="fc" id="L17">    public ClaseService(IClaseRepository repository) {</span>
+<span class="fc" id="L18">        this.repository = repository;</span>
+<span class="fc" id="L19">    }</span>
+
+    @Override
+    public boolean create(Clase clase) {
+<span class="fc bfc" id="L23" title="All 2 branches covered.">        if (!validar(clase)) {</span>
+<span class="fc" id="L24">            return false;</span>
+        }
+<span class="fc" id="L26">        return repository.create(clase);</span>
+    }
+
+    private boolean validar(Clase clase) {
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        return clase != null;</span>
+    }
+
+    @Override
+    public Clase findById(Integer id) {
+<span class="fc" id="L35">        return repository.findById(id);</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findAll() {
+<span class="fc" id="L40">        return repository.findAll();</span>
+    }
+
+    @Override
+    public boolean update(Clase clase) {
+<span class="pc bpc" id="L45" title="1 of 4 branches missed.">        if (!validar(clase) || repository.findById(clase.getId()) == null) {</span>
+<span class="fc" id="L46">            return false;</span>
+        }
+<span class="nc" id="L48">        return repository.update(clase);</span>
+    }
+
+    @Override
+    public boolean deleteById(Integer id) {
+<span class="fc" id="L53">        return repository.deleteById(id);</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findDisponibles() {
+<span class="nc" id="L58">        return repository.findDisponibles();</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findByTipo(String tipo) {
+<span class="fc" id="L63">        return repository.findByTipo(tipo);</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findByMonitor(Integer idMonitor) {
+<span class="fc" id="L68">        return repository.findByMonitor(idMonitor);</span>
+    }
+
+    @Override
+    public List&lt;ClaseMonitor&gt; findClasesConMonitor() {
+<span class="fc" id="L73">        return repository.findClasesConMonitor();</span>
+    }
+
+    @Override
+    public List&lt;ClaseReservaSocio&gt; findReservasConSocio() {
+<span class="nc" id="L78">        return repository.findReservasConSocio();</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

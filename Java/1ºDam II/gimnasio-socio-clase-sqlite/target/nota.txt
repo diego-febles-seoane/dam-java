@@ -1,0 +1,29 @@
+=== CALIFICACION AUTOMATICA POR BLOQUE ===
+
+PESOS:
+- Tests socio: 4.00 puntos
+- Documentacion socio: 1.00 puntos
+- Tests clase: 4.00 puntos
+- Documentacion clase: 1.00 puntos
+- Regla documentacion: solo suma si el bloque tiene al menos 80% de tests pasados
+
+RESULTADOS:
+
+SOCIO
+- Tests: 28/32 pasados, 4 fallados (88%)
+- Nota tests: 3.50/4.00
+- Documentacion encontrada: 2/8 metodos (25%)
+- Nota documentacion: 0.25/1.00
+- Metodos no documentados correctamente: findAll, update, deleteById, findActivos, findByPlan, findSociosConReservas
+- Subtotal: 3.75/5.00
+
+CLASE
+- Tests: 40/40 pasados, 0 fallados (100%)
+- Nota tests: 4.00/4.00
+- Documentacion encontrada: 1/10 metodos (10%)
+- Nota documentacion: 0.10/1.00
+- Metodos no documentados correctamente: findById, findAll, update, deleteById, findDisponibles, findByTipo, findByMonitor, findClasesConMonitor, findReservasConSocio
+- Subtotal: 4.10/5.00
+
+=== NOTA FINAL ===
+Nota final: 7.85/10

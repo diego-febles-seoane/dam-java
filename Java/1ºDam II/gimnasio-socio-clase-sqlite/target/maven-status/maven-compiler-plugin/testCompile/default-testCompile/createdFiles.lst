@@ -1,0 +1,5 @@
+com\ejemplo\service\ClaseServiceSqliteTest.class
+com\ejemplo\support\TestBackupManager.class
+com\ejemplo\support\TestDatabaseSupport.class
+com\ejemplo\service\SocioServiceSqliteTest.class
+com\ejemplo\support\TestDataFactory.class

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ClaseSqliteRepository.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gimnasio-socio-clase-sqlite-solucion</a> &gt; <a href="index.source.html" class="el_package">com.ejemplo.repository.sqlite</a> &gt; <span class="el_source">ClaseSqliteRepository.java</span></div><h1>ClaseSqliteRepository.java</h1><pre class="source lang-java linenums">package com.ejemplo.repository.sqlite;
+
+import com.ejemplo.model.Clase;
+import com.ejemplo.model.ClaseMonitor;
+import com.ejemplo.model.ClaseReservaSocio;
+import com.ejemplo.repository.IClaseRepository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ClaseSqliteRepository extends SQLiteConnectionManager implements IClaseRepository {
+    
+    public ClaseSqliteRepository() {
+<span class="fc" id="L18">        super();</span>
+<span class="fc" id="L19">    }</span>
+
+    @Override
+    public boolean create(Clase clase) {
+<span class="fc" id="L23">        Connection connection = null;</span>
+        try {
+<span class="nc" id="L25">            connection = this.getConnection();</span>
+<span class="nc" id="L26">            PreparedStatement sentencia = </span>
+<span class="nc" id="L27">            connection.prepareStatement(&quot;INSERT INTO clase (id, dni, nombre, email, telefono, plan, activo) &quot;</span>
+            +&quot; values (?,?,?,?,?,?,?)&quot;);
+<span class="nc" id="L29">            sentencia.setObject(1, clase.getId());</span>
+<span class="nc" id="L30">            sentencia.setString(2, clase.getNombre());</span>
+<span class="nc" id="L31">            sentencia.setString(3, clase.getTipo());</span>
+<span class="nc" id="L32">            sentencia.setString(4, clase.getHorario());</span>
+<span class="nc" id="L33">            sentencia.setObject(5, clase.getCupoMaximo());</span>
+<span class="nc" id="L34">            sentencia.setObject(6, clase.getPlazasDisponibles());</span>
+<span class="nc" id="L35">            sentencia.setObject(7, clase.getActiva());</span>
+<span class="nc" id="L36">            sentencia.setObject(8, clase.getIdMonitor());</span>
+<span class="nc" id="L37">            sentencia.execute();</span>
+<span class="fc" id="L38">        } catch (Exception e) {</span>
+<span class="fc" id="L39">            System.err.println(&quot;No se ha podido almacenar el cliente:&quot;+clase.getId());</span>
+<span class="fc" id="L40">            return false;</span>
+<span class="nc" id="L41">        }</span>
+<span class="nc" id="L42">        return true;</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findAll() {
+<span class="fc" id="L47">        Connection connection = null;</span>
+<span class="fc" id="L48">        ArrayList&lt;Clase&gt; clases =new ArrayList&lt;Clase&gt;();</span>
+        try {
+<span class="nc" id="L50">            connection = this.getConnection();</span>
+<span class="nc" id="L51">            PreparedStatement sentencia = connection.prepareStatement(&quot;SELECT * FROM clase&quot;);</span>
+<span class="nc" id="L52">            ResultSet resultado = sentencia.executeQuery();</span>
+<span class="nc bnc" id="L53" title="All 2 branches missed.">            while (resultado.next()) {</span>
+<span class="nc" id="L54">                Integer id = (Integer) resultado.getObject(&quot;id&quot;);</span>
+<span class="nc" id="L55">                Integer miId = Integer.valueOf(id);</span>
+<span class="nc" id="L56">                String nombre = resultado.getString(&quot;nombre&quot;);</span>
+<span class="nc" id="L57">                String tipo = resultado.getString(&quot;tipo&quot;);</span>
+<span class="nc" id="L58">                String horario = resultado.getString(&quot;horario&quot;);</span>
+<span class="nc" id="L59">                Integer cupoMaximo = (Integer) resultado.getObject(&quot;cupoMaximo&quot;);</span>
+<span class="nc" id="L60">                Integer plazasDisponibles = (Integer) resultado.getObject(&quot;plazasDisponibles&quot;);</span>
+<span class="nc" id="L61">                Integer activa = (Integer) resultado.getObject(&quot;activa&quot;);</span>
+<span class="nc" id="L62">                Integer idMonitor = (Integer) resultado.getObject(&quot;idMonitor&quot;);;</span>
+<span class="nc" id="L63">                Integer miActiva = Integer.valueOf(String.valueOf(activa));</span>
+<span class="nc" id="L64">                Clase clase = new Clase(miId, nombre, tipo, horario, cupoMaximo, plazasDisponibles, miActiva, idMonitor);</span>
+<span class="nc" id="L65">                clases.add(clase);</span>
+
+<span class="nc" id="L67">            }</span>
+<span class="fc" id="L68">        } catch (Exception e) {</span>
+<span class="fc" id="L69">            System.err.println(&quot;No se han podido obtener elementos&quot;);</span>
+<span class="fc" id="L70">            return new ArrayList&lt;Clase&gt;();</span>
+<span class="nc" id="L71">        }</span>
+<span class="nc" id="L72">        return clases;</span>
+    }
+
+    @Override
+    public Clase findById(Integer id) {
+<span class="fc" id="L77">        Connection connection = null;</span>
+<span class="fc" id="L78">        Clase clase = null;</span>
+        try {
+<span class="nc" id="L80">            connection = this.getConnection();</span>
+<span class="nc" id="L81">            String sql = &quot;'SELECT * FROM clase as cl where cl.id ='&quot;+id;</span>
+<span class="nc" id="L82">            PreparedStatement sentencia = connection.prepareStatement(sql);</span>
+<span class="nc" id="L83">            ResultSet resultado = sentencia.executeQuery();</span>
+<span class="nc bnc" id="L84" title="All 2 branches missed.">            while (resultado.next()) {</span>
+<span class="nc" id="L85">                String nombre = resultado.getString(&quot;nombre&quot;);</span>
+<span class="nc" id="L86">                String tipo = resultado.getString(&quot;tipo&quot;);</span>
+<span class="nc" id="L87">                String horario = resultado.getString(&quot;horario&quot;);</span>
+<span class="nc" id="L88">                Integer cupoMaximo = (Integer) resultado.getObject(&quot;cupoMaximo&quot;);</span>
+<span class="nc" id="L89">                Integer plazasDisponibles = (Integer) resultado.getObject(&quot;plazasDisponible&quot;);</span>
+<span class="nc" id="L90">                Integer activa = (Integer) resultado.getObject(&quot;activa&quot;);</span>
+<span class="nc" id="L91">                Integer idMonitor = (Integer) resultado.getObject(&quot;idMonitor&quot;);</span>
+<span class="nc" id="L92">                clase = new Clase(id, nombre, tipo, horario, cupoMaximo, plazasDisponibles, activa, idMonitor);</span>
+<span class="nc" id="L93">                return clase;</span>
+
+            }
+<span class="fc" id="L96">        } catch (Exception e) {</span>
+<span class="fc" id="L97">            System.err.println(&quot;No se han podido obtener elementos&quot;);</span>
+<span class="fc" id="L98">            return null;</span>
+<span class="nc" id="L99">        }</span>
+<span class="nc" id="L100">        return clase;</span>
+    }
+
+    @Override
+    public boolean update(Clase clase) {
+<span class="nc" id="L105">        Connection connection = null;</span>
+<span class="nc" id="L106">        String sql = &quot;UPDATE clase as cl nombre = ?, tipo = ?,&quot;</span>
+        +&quot; horario = ?, cupoMaximo = ?, plazasDisponibles = ?, activa = ?, idMonitor = ?  where cl.id= ?&quot;;
+        try {
+<span class="nc" id="L109">            connection = this.getConnection();</span>
+<span class="nc" id="L110">            PreparedStatement sentencia = </span>
+<span class="nc" id="L111">            connection.prepareStatement(sql);</span>
+<span class="nc" id="L112">            sentencia.setObject(1, clase.getId());</span>
+<span class="nc" id="L113">            sentencia.setString(2, clase.getNombre());</span>
+<span class="nc" id="L114">            sentencia.setString(3, clase.getTipo());</span>
+<span class="nc" id="L115">            sentencia.setString(4, clase.getHorario());</span>
+<span class="nc" id="L116">            sentencia.setObject(5, clase.getCupoMaximo());</span>
+<span class="nc" id="L117">            sentencia.setObject(6, clase.getPlazasDisponibles());</span>
+<span class="nc" id="L118">            sentencia.setObject(7, clase.getActiva());</span>
+<span class="nc" id="L119">            sentencia.setObject(8, clase.getIdMonitor());</span>
+<span class="nc" id="L120">            sentencia.execute();</span>
+<span class="nc" id="L121">        } catch (Exception e) {</span>
+<span class="nc" id="L122">            System.err.println(&quot;No se ha podido almacenar el cliente:&quot;+clase.getId());</span>
+<span class="nc" id="L123">            return false;</span>
+<span class="nc" id="L124">        }</span>
+<span class="nc" id="L125">        return true;</span>
+    }
+
+    @Override
+    public boolean deleteById(Integer id) {
+<span class="fc" id="L130">        Connection connection = null;</span>
+        try {
+<span class="nc" id="L132">            connection = this.getConnection();</span>
+<span class="nc" id="L133">            String sql = &quot;delete FROM clase as cl where cl.id =&quot;+id;</span>
+<span class="nc" id="L134">            PreparedStatement sentencia = connection.prepareStatement(sql);</span>
+<span class="nc" id="L135">            sentencia.executeUpdate();</span>
+<span class="nc" id="L136">            return true;</span>
+<span class="fc" id="L137">        } catch (Exception e) {</span>
+<span class="fc" id="L138">            System.err.println(&quot;No se han eliminar&quot;);</span>
+<span class="fc" id="L139">            return false;</span>
+        }
+    }
+
+    @Override
+    public List&lt;Clase&gt; findDisponibles() {
+        // TODO Auto-generated method stub
+<span class="fc" id="L146">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findDisponibles'&quot;);</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findByTipo(String tipo) {
+<span class="fc" id="L151">        Connection connection = null;</span>
+<span class="fc" id="L152">        ArrayList&lt;Clase&gt; clases =new ArrayList&lt;Clase&gt;();</span>
+        try {
+<span class="nc" id="L154">            connection = this.getConnection();</span>
+<span class="nc" id="L155">            String sql = &quot;SELECT * FROM clase as cl where cl.tipo =&quot;+tipo;</span>
+<span class="nc" id="L156">            PreparedStatement sentencia = connection.prepareStatement(sql);</span>
+<span class="nc" id="L157">            ResultSet resultado = sentencia.executeQuery();</span>
+<span class="nc bnc" id="L158" title="All 2 branches missed.">            while (resultado.next()) {</span>
+<span class="nc" id="L159">                Integer id = (Integer) resultado.getObject(&quot;id&quot;);</span>
+<span class="nc" id="L160">                String nombre = resultado.getString(&quot;nombre&quot;);</span>
+<span class="nc" id="L161">                String horario = resultado.getString(&quot;horario&quot;);</span>
+<span class="nc" id="L162">                Integer cupoMaximo = (Integer) resultado.getObject(&quot;cupoMaximo&quot;);</span>
+<span class="nc" id="L163">                Integer plazasDisponibles = (Integer) resultado.getObject(&quot;plazasDisponible&quot;);</span>
+<span class="nc" id="L164">                Integer activa = (Integer) resultado.getObject(&quot;activa&quot;);</span>
+<span class="nc" id="L165">                Integer idMonitor = (Integer) resultado.getObject(&quot;idMonitor&quot;);</span>
+<span class="nc" id="L166">                Clase clase = new Clase(id, nombre, tipo, horario, cupoMaximo, plazasDisponibles, activa, idMonitor);</span>
+<span class="nc" id="L167">                clases.add(clase);</span>
+
+<span class="nc" id="L169">            }</span>
+<span class="fc" id="L170">        } catch (Exception e) {</span>
+<span class="fc" id="L171">            System.err.println(&quot;No se han podido obtener elementos&quot;);</span>
+<span class="fc" id="L172">            return new ArrayList&lt;Clase&gt;();</span>
+<span class="nc" id="L173">        }</span>
+<span class="nc" id="L174">        return clases;</span>
+    }
+
+    @Override
+    public List&lt;Clase&gt; findByMonitor(Integer idMonitor) {
+<span class="fc" id="L179">        Connection connection = null;</span>
+<span class="fc" id="L180">        ArrayList&lt;Clase&gt; clases =new ArrayList&lt;Clase&gt;();</span>
+        try {
+<span class="nc" id="L182">            connection = this.getConnection();</span>
+<span class="nc" id="L183">            String sql = &quot;SELECT * FROM clase as cl where cl.idMonitor =&quot;+idMonitor;</span>
+<span class="nc" id="L184">            PreparedStatement sentencia = connection.prepareStatement(sql);</span>
+<span class="nc" id="L185">            ResultSet resultado = sentencia.executeQuery();</span>
+<span class="nc bnc" id="L186" title="All 2 branches missed.">            while (resultado.next()) {</span>
+<span class="nc" id="L187">                Integer id = (Integer) resultado.getObject(&quot;id&quot;);</span>
+<span class="nc" id="L188">                String nombre = resultado.getString(&quot;nombre&quot;);</span>
+<span class="nc" id="L189">                String tipo = resultado.getString(&quot;tipo&quot;);</span>
+<span class="nc" id="L190">                String horario = resultado.getString(&quot;horario&quot;);</span>
+<span class="nc" id="L191">                Integer cupoMaximo = (Integer) resultado.getObject(&quot;cupoMaximo&quot;);</span>
+<span class="nc" id="L192">                Integer plazasDisponibles = (Integer) resultado.getObject(&quot;plazasDisponible&quot;);</span>
+<span class="nc" id="L193">                Integer activa = (Integer) resultado.getObject(&quot;activa&quot;);</span>
+<span class="nc" id="L194">                Clase clase = new Clase(id, nombre, tipo, horario, cupoMaximo, plazasDisponibles, activa, idMonitor);</span>
+<span class="nc" id="L195">                clases.add(clase);</span>
+
+<span class="nc" id="L197">            }</span>
+<span class="fc" id="L198">        } catch (Exception e) {</span>
+<span class="fc" id="L199">            System.err.println(&quot;No se han podido obtener elementos&quot;);</span>
+<span class="fc" id="L200">            return new ArrayList&lt;Clase&gt;();</span>
+<span class="nc" id="L201">        }</span>
+<span class="nc" id="L202">        return clases;</span>
+    }
+
+    @Override
+    public List&lt;ClaseMonitor&gt; findClasesConMonitor() {
+<span class="fc" id="L207">        Connection connection = null;</span>
+<span class="fc" id="L208">        ArrayList&lt;ClaseMonitor&gt; clases =new ArrayList&lt;ClaseMonitor&gt;();</span>
+        try {
+<span class="nc" id="L210">            connection = this.getConnection();</span>
+<span class="nc" id="L211">            PreparedStatement sentencia = connection.prepareStatement(&quot;SELECT * FROM monitor&quot;);</span>
+<span class="nc" id="L212">            ResultSet resultado = sentencia.executeQuery();</span>
+<span class="nc bnc" id="L213" title="All 2 branches missed.">            while (resultado.next()) {</span>
+<span class="nc" id="L214">                Integer claseId = (Integer) resultado.getObject(&quot;claseId&quot;);</span>
+<span class="nc" id="L215">                Integer miId = Integer.valueOf(claseId);</span>
+<span class="nc" id="L216">                String claseNombre = resultado.getString(&quot;nombre&quot;);</span>
+<span class="nc" id="L217">                String tipo = resultado.getString(&quot;tipo&quot;);</span>
+<span class="nc" id="L218">                String monitorNombre = resultado.getString(&quot;monitorNombre&quot;);</span>
+<span class="nc" id="L219">                String especialidad = resultado.getString(&quot;especialidad&quot;);</span>
+<span class="nc" id="L220">                ClaseMonitor clase = new ClaseMonitor(miId, claseNombre, tipo, monitorNombre, especialidad);</span>
+<span class="nc" id="L221">                clases.add(clase);</span>
+
+<span class="nc" id="L223">            }</span>
+<span class="fc" id="L224">        } catch (Exception e) {</span>
+<span class="fc" id="L225">            System.err.println(&quot;No se han podido obtener elementos&quot;);</span>
+<span class="fc" id="L226">            return new ArrayList&lt;ClaseMonitor&gt;();</span>
+<span class="nc" id="L227">        }</span>
+<span class="nc" id="L228">        return clases;</span>
+    }
+
+    @Override
+    public List&lt;ClaseReservaSocio&gt; findReservasConSocio() {
+        // TODO Auto-generated method stub
+<span class="fc" id="L234">        throw new UnsupportedOperationException(&quot;Unimplemented method 'findReservasConSocio'&quot;);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

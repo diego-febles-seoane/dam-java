@@ -1,0 +1,15 @@
+com\ejemplo\service\SocioService.class
+com\ejemplo\model\ClaseMonitor.class
+com\ejemplo\model\SocioReserva.class
+com\ejemplo\app\Main.class
+com\ejemplo\repository\IClaseRepository.class
+com\ejemplo\repository\ISocioRepository.class
+com\ejemplo\repository\sqlite\SQLiteConnectionManager.class
+com\ejemplo\model\ClaseReservaSocio.class
+com\ejemplo\repository\sqlite\ClaseSqliteRepository.class
+com\ejemplo\service\ISocioService.class
+com\ejemplo\model\Clase.class
+com\ejemplo\repository\sqlite\SocioSqliteRepository.class
+com\ejemplo\model\Socio.class
+com\ejemplo\service\IClaseService.class
+com\ejemplo\service\ClaseService.class
